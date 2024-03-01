@@ -16,11 +16,13 @@ enum class MinecraftVersion(
     val mcVersion: String,
     val mcpVersion: String? = null,
     val mcpConfig: Boolean = false,
-    val spigot: SpigotMappingType = SpigotMappingType.NO_SPIGOT,
+    val spigot: SpigotMappingType = NO_SPIGOT,
     val yarn: Boolean = false,
     val mojang: Boolean = false,
     val legacyIntermediary: Boolean = false
 ) {
+    V1_20_4("1.20.4", null, true, MODERN_SPIGOT, true, true, false),
+    V1_20_3("1.20.3", null, true, MODERN_SPIGOT, true, true, false),
     V1_20_2("1.20.2", null, true, MODERN_SPIGOT, true, true, false),
     V1_20_1("1.20.1", null, true, MODERN_SPIGOT, true, true, false),
     V1_19_4("1.19.4", null, true, MODERN_SPIGOT, true, true, false),
