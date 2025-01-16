@@ -1,0 +1,4810 @@
+azc$c net/minecraft/server/DefinedStructure$EntityInfo
+azc$b net/minecraft/server/DefinedStructure$BlockInfo
+ayq$a net/minecraft/server/StructurePiece$StructurePieceBlockSelector
+asx$a net/minecraft/server/TileEntityStructure$UsageMode
+	a SAVE
+	b LOAD
+	c CORNER
+	d DATA
+cv$c net/minecraft/server/EnumDirection$EnumDirectionLimit
+	a HORIZONTAL
+	b VERTICAL
+cv$a net/minecraft/server/EnumDirection$EnumAxis
+	a X
+	b Y
+	c Z
+cv$b net/minecraft/server/EnumDirection$EnumAxisDirection
+	a POSITIVE
+	b NEGATIVE
+a net/minecraft/server/EnumChatFormat
+	a BLACK
+	b DARK_BLUE
+	c DARK_GREEN
+	d DARK_AQUA
+	e DARK_RED
+	f DARK_PURPLE
+	g GOLD
+	h GRAY
+	i DARK_GRAY
+	j BLUE
+	k GREEN
+	l AQUA
+	m RED
+	n LIGHT_PURPLE
+	o YELLOW
+	p WHITE
+	q OBFUSCATED
+	r BOLD
+	s STRIKETHROUGH
+	t UNDERLINE
+	u ITALIC
+	v RESET
+	c ()Z isFormat
+b net/minecraft/server/CrashReport
+c net/minecraft/server/CrashReportSystemDetails
+d net/minecraft/server/CrashReportCallable
+f net/minecraft/server/ReportedException
+g net/minecraft/server/SharedConstants
+	c allowedCharacters
+	a (C)Z isAllowedChatCharacter
+h net/minecraft/server/SystemUtils
+i net/minecraft/server/ICommandDispatcher
+j net/minecraft/server/CommandAbstract
+	b ([Ljava/lang/String;I)Z isListStart
+aps$a net/minecraft/server/BlockPressurePlateBinary$EnumMobType
+	a EVERYTHING
+	b MOBS
+k net/minecraft/server/CommandHandler
+l net/minecraft/server/ICommand
+	a (Lnet/minecraft/server/MinecraftServer;Ln;)Z canUse
+	a (Lnet/minecraft/server/MinecraftServer;Ln;[Ljava/lang/String;)V execute
+	a (Lnet/minecraft/server/MinecraftServer;Ln;[Ljava/lang/String;Lco;)Ljava/util/List; tabComplete
+	b ()Ljava/util/List; getAliases
+	b (Ln;)Ljava/lang/String; getUsage
+	b ([Ljava/lang/String;I)Z isListStart
+	c ()Ljava/lang/String; getCommand
+m net/minecraft/server/ICommandHandler
+	b ()Ljava/util/Map; getCommands
+n net/minecraft/server/ICommandListener
+	a (Lfb;)V sendMessage
+	c ()Lco; getChunkCoordinates
+	e ()Lajs; getWorld
+	g ()Z getSendCommandFeedback
+	h_ ()Ljava/lang/String; getName
+	i_ ()Lfb; getScoreboardDisplayName
+o net/minecraft/server/CommandObjectiveExecutor
+p net/minecraft/server/PlayerSelector
+	a (Ljava/lang/String;)Z isList
+	a (Ln;Ljava/lang/String;)Lly; getPlayer
+	a (Ln;Ljava/lang/String;Ljava/lang/Class;)Lsn; getEntity
+	b (Ljava/lang/String;)Z isPattern
+	b (Ln;Ljava/lang/String;)Lfb; getPlayerNames
+	b (Ln;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/List; getPlayers
+q net/minecraft/server/CommandAchievement
+r net/minecraft/server/CommandBanIp
+s net/minecraft/server/CommandBanList
+t net/minecraft/server/CommandBan
+u net/minecraft/server/CommandBlockData
+amn$a net/minecraft/server/BlockRedstoneComparator$EnumComparatorMode
+	a COMPARE
+	b SUBTRACT
+v net/minecraft/server/CommandClear
+w net/minecraft/server/CommandClone
+x net/minecraft/server/CommandDeop
+y net/minecraft/server/CommandDebug
+z net/minecraft/server/CommandGamemodeDefault
+ayk$c$a net/minecraft/server/WorldGenRegistration$WorldGenJungleTemple$WorldGenJungleTemplePiece
+aao$a net/minecraft/server/EntityZombie$GroupDataZombie
+ms$a net/minecraft/server/NameReferencingFileConverter$FileConversionException
+aym$p$a net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdPiece$WorldGenStrongholdDoorType
+	a OPENING
+	b WOOD_DOOR
+	c GRATES
+	d IRON_DOOR
+aab$b net/minecraft/server/EntityPigZombie$PathfinderGoalAngerOther
+ou$a net/minecraft/server/MethodProfiler$ProfilerInfo
+afi$a net/minecraft/server/ItemCooldown$Info
+ayu$f net/minecraft/server/WorldGenVillagePieces$WorldGenVillageButcher
+ayu$e net/minecraft/server/WorldGenVillagePieces$WorldGenVillagePieceWeight
+ayu$d net/minecraft/server/WorldGenVillagePieces$WorldGenVillageLight
+ayu$c net/minecraft/server/WorldGenVillagePieces$WorldGenVillageFarm
+ayu$b net/minecraft/server/WorldGenVillagePieces$WorldGenVillageFarm2
+ayu$a net/minecraft/server/WorldGenVillagePieces$WorldGenVillageLibrary
+cr$a net/minecraft/server/IteratorUtils$ArrayToList
+cr$b net/minecraft/server/IteratorUtils$ClassIterable
+ayu$p net/minecraft/server/WorldGenVillagePieces$WorldGenVillageWell
+ayu$o net/minecraft/server/WorldGenVillagePieces$WorldGenVillageRoadPiece
+ayu$n net/minecraft/server/WorldGenVillagePieces$WorldGenVillagePiece
+ayu$m net/minecraft/server/WorldGenVillagePieces$WorldGenVillageHouse2
+ayu$l net/minecraft/server/WorldGenVillagePieces$WorldGenVillageRoad
+akp$a net/minecraft/server/BiomeForest$Type
+	a NORMAL
+	b FLOWER
+	c BIRCH
+	d ROOFED
+ayu$k net/minecraft/server/WorldGenVillagePieces$WorldGenVillageStartPiece
+ayu$j net/minecraft/server/WorldGenVillagePieces$WorldGenVillageBlacksmith
+ayu$i net/minecraft/server/WorldGenVillagePieces$WorldGenVillageTemple
+ayu$h net/minecraft/server/WorldGenVillagePieces$WorldGenVillageHut
+ayu$g net/minecraft/server/WorldGenVillagePieces$WorldGenVillageHouse
+zd$a net/minecraft/server/EntityFishingHook$HookState
+	a FLYING
+	b HOOKED_IN_ENTITY
+	c BOBBING
+wp$a net/minecraft/server/Village$Aggressor
+ayd$e net/minecraft/server/WorldGenMineshaftPieces$WorldGenMineshaftStairs
+ayd$d net/minecraft/server/WorldGenMineshaftPieces$WorldGenMineshaftRoom
+ayd$b net/minecraft/server/WorldGenMineshaftPieces$WorldGenMineshaftCross
+ayd$a net/minecraft/server/WorldGenMineshaftPieces$WorldGenMineshaftCorridor
+ik$a net/minecraft/server/PacketPlayOutUpdateAttributes$AttributeSnapshot
+apw$a net/minecraft/server/BlockQuartz$EnumQuartzVariant
+	a DEFAULT
+	b CHISELED
+	c LINES_Y
+	d LINES_X
+	e LINES_Z
+hh$a net/minecraft/server/PacketPlayOutPosition$EnumPlayerTeleportFlags
+	a X
+	b Y
+	c Z
+	d Y_ROT
+	e X_ROT
+amv$a net/minecraft/server/BlockDirt$EnumDirtVariant
+	a DIRT
+	b COARSE_DIRT
+	c PODZOL
+cr$b$a net/minecraft/server/IteratorUtils$ClassIterable$ClassIterator
+kf$c$a net/minecraft/server/ServerPing$ServerData$Serializer
+als$a net/minecraft/server/BlockBed$EnumBedPart
+	a HEAD
+	b FOOT
+aab$a net/minecraft/server/EntityPigZombie$PathfinderGoalAnger
+ix$a net/minecraft/server/PacketPlayInUseEntity$EnumEntityUseAction
+	a INTERACT
+	b ATTACK
+	c INTERACT_AT
+ayi$b net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector6
+ayi$a net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector7
+uj$a net/minecraft/server/PathfinderGoalSelector$PathfinderGoalSelectorItem
+ayi$r net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece
+ayi$q net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse
+ayi$p net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceEntry
+ayi$o net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece7
+ayi$n net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece6
+ayi$m net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece5
+ayi$l net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece4
+ayi$k net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece3
+ayi$j net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece2
+ayi$i net/minecraft/server/WorldGenMonumentPieces$IWorldGenMonumentPieceSelector
+ayi$h net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece1
+ayi$g net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector1
+ayi$f net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector2
+ayi$e net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector3
+ayi$d net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector4
+ayi$c net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSelector5
+ayi$v net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentStateTracker
+ayi$u net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPiece8
+ayi$t net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT
+ayi$s net/minecraft/server/WorldGenMonumentPieces$WorldGenMonumentPieceSimple
+fb$a net/minecraft/server/IChatBaseComponent$ChatSerializer
+bei$a net/minecraft/server/IScoreboardCriteria$EnumScoreboardHealthDisplay
+	a INTEGER
+	b HEARTS
+arq$a net/minecraft/server/BlockCobbleWall$EnumCobbleVariant
+	a NORMAL
+	b MOSSY
+j$a net/minecraft/server/CommandAbstract$CommandNumber
+aol$a net/minecraft/server/BlockJukeBox$TileEntityRecordPlayer
+	a record
+	a ()Lafj; getRecord
+	a (Lafj;)V setRecord
+alg$a net/minecraft/server/BiomeTheEndDecorator$SpikeCache
+mk$a net/minecraft/server/LoginListener$EnumProtocolState
+	a HELLO
+	b KEY
+	c AUTHENTICATING
+	d READY_TO_ACCEPT
+	e DELAY_ACCEPT
+	f ACCEPTED
+ra$b net/minecraft/server/BossBattle$BarStyle
+	a PROGRESS
+	b NOTCHED_6
+	c NOTCHED_10
+	d NOTCHED_12
+	e NOTCHED_20
+ra$a net/minecraft/server/BossBattle$BarColor
+	a PINK
+	b BLUE
+	c RED
+	d GREEN
+	e YELLOW
+	f PURPLE
+	g WHITE
+afa$a net/minecraft/server/ItemFish$EnumFish
+	a COD
+	b SALMON
+	c CLOWNFISH
+	d PUFFERFISH
+aht$a net/minecraft/server/RecipiesShield$Decoration
+aym$n net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdStairs
+aym$m net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdStart
+aym$l net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdStairs2
+aym$k net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdStones
+aym$j net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing
+aym$i net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdRightTurn
+aym$h net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdPrison
+aym$g net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom
+aym$f net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdPieceWeight
+aym$e net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdLibrary
+aym$d net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn
+aym$c net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdCrossing
+aym$b net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdCorridor
+aym$a net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor
+aym$p net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdPiece
+aym$o net/minecraft/server/WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight
+apo$a net/minecraft/server/BlockPortal$Shape
+	f position
+	g height
+	h width
+	e ()V createPortal
+w$a net/minecraft/server/CommandClone$CommandCloneStoredTileEntity
+mx$a net/minecraft/server/JsonList$JsonListEntrySerializer
+adp$a net/minecraft/server/ItemArmor$EnumArmorMaterial
+	a LEATHER
+	b CHAIN
+	c IRON
+	d GOLD
+	e DIAMOND
+aop$a net/minecraft/server/BlockLever$EnumLeverPosition
+	a DOWN_X
+	b EAST
+	c WEST
+	d SOUTH
+	e NORTH
+	f UP_Z
+	g UP_X
+	h DOWN_Z
+ard$a net/minecraft/server/BlockSmoothBrick$EnumStonebrickType
+	a DEFAULT
+	b MOSSY
+	c CRACKED
+	d CHISELED
+aii$a net/minecraft/server/Enchantment$Rarity
+	a COMMON
+	b UNCOMMON
+	c RARE
+	d VERY_RARE
+aob$a net/minecraft/server/BlockStepAbstract$EnumSlabHalf
+	a TOP
+	b BOTTOM
+anp$a net/minecraft/server/BlockFlowerPot$EnumFlowerPotContents
+	a EMPTY
+	b POPPY
+	c BLUE_ORCHID
+	d ALLIUM
+	e HOUSTONIA
+	f RED_TULIP
+	g ORANGE_TULIP
+	h WHITE_TULIP
+	i PINK_TULIP
+	j OXEYE_DAISY
+	k DANDELION
+	l OAK_SAPLING
+	m SPRUCE_SAPLING
+	n BIRCH_SAPLING
+	o JUNGLE_SAPLING
+	p ACACIA_SAPLING
+	q DARK_OAK_SAPLING
+	r MUSHROOM_RED
+	s MUSHROOM_BROWN
+	t DEAD_BUSH
+	u FERN
+	v CACTUS
+aqd$a net/minecraft/server/BlockRedstoneTorch$RedstoneUpdateInfo
+ayc$a net/minecraft/server/WorldGenMineshaft$Type
+	a NORMAL
+	b MESA
+apv$c net/minecraft/server/BlockPurpurSlab$Type
+	a DEFAULT
+apv$b net/minecraft/server/BlockPurpurSlab$Half
+apv$a net/minecraft/server/BlockPurpurSlab$Default
+zv$a net/minecraft/server/EntityGhast$PathfinderGoalGhastMoveTowardsTarget
+zv$c net/minecraft/server/EntityGhast$PathfinderGoalGhastAttackTarget
+	b ghast
+zv$b net/minecraft/server/EntityGhast$ControllerGhast
+zv$d net/minecraft/server/EntityGhast$PathfinderGoalGhastIdleMove
+ape$a net/minecraft/server/BlockDoubleStoneStepAbstract$EnumStoneSlab2Variant
+	a RED_SANDSTONE
+aow$a net/minecraft/server/BlockMonsterEggs$EnumMonsterEggVarient
+	a STONE
+	b COBBLESTONE
+	c STONEBRICK
+	d MOSSY_STONEBRICK
+	e CRACKED_STONEBRICK
+	f CHISELED_STONEBRICK
+fg$a net/minecraft/server/ChatModifier$ChatModifierSerializer
+aqy$a net/minecraft/server/BlockStairs$EnumHalf
+	a TOP
+	b BOTTOM
+aqy$b net/minecraft/server/BlockStairs$EnumStairShape
+	a STRAIGHT
+	b INNER_LEFT
+	c INNER_RIGHT
+	d OUTER_LEFT
+	e OUTER_RIGHT
+kn$a net/minecraft/server/DataWatcher$Item
+atm$a net/minecraft/server/BlockStateList$BlockData
+awa$a net/minecraft/server/WorldGenBigTree$Position
+afh$a net/minecraft/server/Item$EnumToolMaterial
+	a WOOD
+	b STONE
+	c IRON
+	d DIAMOND
+	e GOLD
+o$a net/minecraft/server/CommandObjectiveExecutor$EnumCommandResult
+	a SUCCESS_COUNT
+	b AFFECTED_BLOCKS
+	c AFFECTED_ENTITIES
+	d AFFECTED_ITEMS
+	e QUERY_RESULT
+ayt$a net/minecraft/server/WorldGenVillage$WorldGenVillageStart
+mp$b net/minecraft/server/UserCache$BanEntrySerializer
+mp$a net/minecraft/server/UserCache$UserCacheEntry
+ayg$d net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece4
+ayg$c net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece3
+ayg$b net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece2
+ayg$a net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece1
+apz$a net/minecraft/server/BlockRedSandstone$EnumRedSandstoneVariant
+	a DEFAULT
+	b CHISELED
+	c SMOOTH
+ayg$q net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece15
+ayg$p net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece14
+ayg$o net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece13
+ayg$n net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPieceWeight
+ayg$m net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece
+ayg$l net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece12
+ayg$k net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece11
+ayg$j net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece10
+ayg$i net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece9
+ayg$h net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece8
+ayg$g net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece7
+ayg$f net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece6
+ayg$e net/minecraft/server/WorldGenNetherPieces$WorldGenNetherPiece5
+avb$a net/minecraft/server/RegionFile$ChunkBuffer
+zr$a net/minecraft/server/EntityEnderman$PathfinderGoalEndermanPlaceBlock
+zr$c net/minecraft/server/EntityEnderman$PathfinderGoalEndermanPickupBlock
+	a enderman
+zr$b net/minecraft/server/EntityEnderman$PathfinderGoalPlayerWhoLookedAtTarget
+bdu$a net/minecraft/server/MovingObjectPosition$EnumMovingObjectType
+	a MISS
+	b BLOCK
+	c ENTITY
+ajp$a net/minecraft/server/GameRules$GameRuleValue
+ajp$b net/minecraft/server/GameRules$EnumGameRuleType
+	a ANY_VALUE
+	b BOOLEAN_VALUE
+	c NUMERICAL_VALUE
+aaf$b net/minecraft/server/EntitySilverfish$PathfinderGoalSilverfishWakeOthers
+	a silverfish
+co$b net/minecraft/server/BlockPosition$PooledBlockPosition
+co$a net/minecraft/server/BlockPosition$MutableBlockPosition
+aaf$a net/minecraft/server/EntitySilverfish$PathfinderGoalSilverfishHideInBlock
+ayh$a net/minecraft/server/WorldGenMonument$WorldGenMonumentStart
+jg$a net/minecraft/server/PacketPlayInResourcePackStatus$EnumResourcePackStatus
+	a SUCCESSFULLY_LOADED
+	b DECLINED
+	c FAILED_DOWNLOAD
+	d ACCEPTED
+apn$a net/minecraft/server/BlockWood$EnumLogVariant
+	a OAK
+	b SPRUCE
+	c BIRCH
+	d JUNGLE
+	e ACACIA
+	f DARK_OAK
+asb$a net/minecraft/server/TileEntityBeacon$BeaconColorTracker
+zn$a net/minecraft/server/EntityBlaze$PathfinderGoalBlazeFireball
+arc$a net/minecraft/server/BlockStone$EnumStoneVariant
+	a STONE
+	b GRANITE
+	c GRANITE_SMOOTH
+	d DIORITE
+	e DIORITE_SMOOTH
+	f ANDESITE
+	g ANDESITE_SMOOTH
+kf$c net/minecraft/server/ServerPing$ServerData
+	b ()I getProtocolVersion
+sr$a net/minecraft/server/IEntitySelector$EntitySelectorEquipable
+kf$a net/minecraft/server/ServerPing$ServerPingPlayerSample
+kf$b net/minecraft/server/ServerPing$Serializer
+ayl$a net/minecraft/server/WorldGenStronghold$WorldGenStronghold2Start
+xh$a net/minecraft/server/EntitySquid$PathfinderGoalSquid
+ahf$b net/minecraft/server/RecipesBanner$DuplicateRecipe
+ahf$a net/minecraft/server/RecipesBanner$AddRecipe
+asf$a net/minecraft/server/TileEntityCommand$Type
+	a SEQUENCE
+	b AUTO
+	c REDSTONE
+iq$a net/minecraft/server/PacketPlayInClientCommand$EnumClientCommand
+	a PERFORM_RESPAWN
+	b REQUEST_STATS
+	c OPEN_INVENTORY_ACHIEVEMENT
+aaa net/minecraft/server/EntityMonster
+	a (Lry;F)Z damageEntity
+aac net/minecraft/server/IRangedEntity
+aab net/minecraft/server/EntityPigZombie
+	bw angerLevel
+	bx soundDelay
+	by hurtBy
+aae net/minecraft/server/EntityShulker
+aad net/minecraft/server/GenericAttributes
+	a maxHealth
+	b FOLLOW_RANGE
+	d MOVEMENT_SPEED
+	e ATTACK_DAMAGE
+aag net/minecraft/server/EntitySkeleton
+aaf net/minecraft/server/EntitySilverfish
+aai net/minecraft/server/EntitySpider
+	a (Lrh;Lsz;)Lsz; prepare
+	bq ()F getHeadHeight
+aah net/minecraft/server/EntitySlime
+	I ()Lafh; getLoot
+	a (IZ)V setSize
+	dh ()I getSize
+aor$a net/minecraft/server/BlockLogAbstract$EnumLogRotation
+	a X
+	b Y
+	c Z
+	d NONE
+aak net/minecraft/server/EntityVex
+aaj net/minecraft/server/EntitySkeletonStray
+aam net/minecraft/server/EntityWitch
+aal net/minecraft/server/EntityVindicator
+aao net/minecraft/server/EntityZombie
+	a (Lrh;Lsz;)Lsz; prepare
+	a (Lry;F)Z damageEntity
+	q (Z)V setBaby
+aan net/minecraft/server/EntitySkeletonWither
+aap net/minecraft/server/EntityZombieVillager
+	bw conversionTime
+	a (I)V setProfession
+	dl ()I getProfession
+	do ()Z isConverting
+aas net/minecraft/server/NPC
+aat net/minecraft/server/EntityVillager
+	bC tradingPlayer
+	bD trades
+	bH riches
+	bN inventory
+	bw village
+	bz profession
+	dh ()I getProfession
+	do ()Z do_
+	g (I)V setProfession
+alm$a net/minecraft/server/BlockBanner$BlockStandingBanner
+aaw net/minecraft/server/PlayerAbilities
+	a isInvulnerable
+	b isFlying
+	c canFly
+	d canInstantlyBuild
+	e mayBuild
+	f flySpeed
+	g walkSpeed
+aay net/minecraft/server/EntityHuman
+	bG sleeping
+	bH bedPosition
+	bK abilities
+	bL expLevel
+	bM expTotal
+	bN exp
+	bQ hookedFish
+	bs inventory
+	bt defaultContainer
+	bu activeContainer
+	bv foodData
+	c enderChest
+	d sleepTicks
+	a (F)V applyExhaustion
+	a (I)V levelDown
+	a (Laay;Z)V copyTo
+	a (Lafj;Z)Lzj; drop
+	a (Lajd;)V openTrade
+	a (Lajs;Lco;Z)Lco; getBed
+	a (Lasv;)V openSign
+	a (Lco;Z)V setRespawnPosition
+	a (Lrc;)V openContainer
+	a (Lrj;)V openTileEntity
+	a (Lxm;Lrc;)V openHorseInventory
+	b (I)V enchantDone
+	b (Latl;)Z hasBlock
+	cM ()I getScore
+	cS ()Lcom/mojang/authlib/GameProfile; getProfile
+	cU ()Z isDeeplySleeping
+	cW ()Lco; getBed
+	cX ()Z isRespawnForced
+	cZ ()I getExpToLevel
+	da ()Lacj; getFoodData
+	dd ()Ladg; getEnderChest
+	de ()Lbec; getScoreboard
+	f (Lsn;)V attack
+	g (I)V setScore
+	k (DDD)V checkMovement
+	m (I)V addScore
+	n (I)V giveExp
+	q ()V closeInventory
+	w ()V updateAbilities
+	y ()Z isSpectator
+aax net/minecraft/server/PlayerInventory
+	a items
+	b armor
+	c extraSlots
+	d itemInHandIndex
+	e player
+	h carried
+	c (Lafj;)Z pickup
+	e (Lafj;)V setCarried
+	h (Lafj;)I firstPartial
+	i ()Lafj; getItemInHand
+	j ()I getHotbarSize
+	k ()I getFirstEmptySlotIndex
+	p ()Lafj; getCarried
+arf$a net/minecraft/server/BlockDoubleStepAbstract$EnumStoneSlabVariant
+	a STONE
+	b SAND
+	c WOOD
+	d COBBLESTONE
+	e BRICK
+	f SMOOTHBRICK
+	g NETHERBRICK
+	h QUARTZ
+abb net/minecraft/server/EntityArrow
+	a inGround
+	aA knockbackStrength
+	az damage
+	c fromPlayer
+	d shake
+	e shooter
+	a (I)V setKnockbackStrength
+	a (Z)V setCritical
+	n ()Z isCritical
+c$a net/minecraft/server/CrashReportSystemDetails$CrashReportDetail
+abd net/minecraft/server/EntityEvokerFangs
+abc net/minecraft/server/EntityDragonFireball
+abf net/minecraft/server/EntityFireball
+	a shooter
+	b dirX
+	c dirY
+	d dirZ
+	a (Lry;F)Z damageEntity
+abe net/minecraft/server/EntityEnderSignal
+abh net/minecraft/server/EntityLargeFireball
+	e yield
+abg net/minecraft/server/EntityFireworks
+	a FIREWORK_ITEM
+	c ticksFlown
+	d expectedLifespan
+abj net/minecraft/server/IProjectile
+	c (DDDFF)V shoot
+alm$b net/minecraft/server/BlockBanner$BlockWallBanner
+abi net/minecraft/server/EntityLlamaSpit
+	a shooter
+abl net/minecraft/server/EntityShulkerBullet
+	a shooter
+	b target
+abk net/minecraft/server/ProjectileHelper
+abn net/minecraft/server/EntitySnowball
+abm net/minecraft/server/EntitySmallFireball
+abp net/minecraft/server/EntityProjectile
+	a inGround
+	at shooterName
+	b shake
+	d blockX
+	e blockY
+	f blockZ
+	g inBlockId
+	h shooter
+	k ()Lsw; getShooter
+abo net/minecraft/server/EntitySpectralArrow
+	f duration
+abr net/minecraft/server/EntityEnderPearl
+abq net/minecraft/server/EntityEgg
+abt net/minecraft/server/EntityPotion
+	a (Lafj;)V setItem
+	l ()Lafj; getItem
+	o ()Z isLingering
+abs net/minecraft/server/EntityThrownExpBottle
+abv net/minecraft/server/EntityWitherSkull
+	a (Z)V setCharged
+	n ()Z isCharged
+abu net/minecraft/server/EntityTippedArrow
+	g potionRegistry
+	h effects
+abx net/minecraft/server/EntityBoat
+	a (F)V setDamage
+	a (Labx$b;)V setType
+	r ()Labx$b; getType
+abz net/minecraft/server/EntityMinecartChest
+aby net/minecraft/server/EntityMinecartAbstract
+	a (F)V setDamage
+	a (Latl;)V setDisplayBlock
+	f (I)V setDisplayBlockOffset
+	s ()F getDamage
+	t ()I getType
+	w ()Latl; getDisplayBlock
+	y ()I getDisplayBlockOffset
+aca net/minecraft/server/EntityMinecartCommandBlock
+	a COMMAND
+	j ()Lajh; getCommandBlock
+acc net/minecraft/server/EntityMinecartFurnace
+acb net/minecraft/server/EntityMinecartContainer
+	a items
+ace net/minecraft/server/EntityMinecartRideable
+acd net/minecraft/server/EntityMinecartHopper
+	C ()Z isEnabled
+	g (I)V setCooldown
+	l (Z)V setEnabled
+acg net/minecraft/server/EntityMinecartTNT
+acf net/minecraft/server/EntityMinecartMobSpawner
+acj net/minecraft/server/FoodMetaData
+	a foodLevel
+	b saturationLevel
+	c exhaustionLevel
+	d foodTickTimer
+	a ()I getFoodLevel
+	a (IF)V eat
+	e ()F getSaturationLevel
+acm net/minecraft/server/ContainerAnvil
+acl net/minecraft/server/Container
+	d windowId
+	e listeners
+	f dragType
+	a (I)Ladl; getSlot
+	a (ILafj;)V setItem
+	a (Lacr;)V addSlotListener
+	a (Lrc;I)Ladl; getSlot
+aco net/minecraft/server/ContainerBrewingStand
+	a brewingStand
+acn net/minecraft/server/ContainerBeacon
+	a beacon
+acq net/minecraft/server/InventoryClickType
+	a PICKUP
+	b QUICK_MOVE
+	c SWAP
+	d CLONE
+	e THROW
+	f QUICK_CRAFT
+	g PICKUP_ALL
+acp net/minecraft/server/ContainerChest
+	a container
+acs net/minecraft/server/InventoryCrafting
+	a items
+acr net/minecraft/server/ICrafting
+	a (Lacl;II)V setContainerData
+	a (Lacl;Lrc;)V setContainerData
+acu net/minecraft/server/ContainerDispenser
+	a items
+act net/minecraft/server/ContainerWorkbench
+	a craftInventory
+	f resultInventory
+acw net/minecraft/server/SlotFurnaceFuel
+acv net/minecraft/server/ContainerEnchantTable
+	a enchantSlots
+	g costs
+	j world
+	k position
+acy net/minecraft/server/SlotFurnaceResult
+acx net/minecraft/server/ContainerFurnace
+	a furnace
+acz net/minecraft/server/ContainerHopper
+	a hopper
+adb net/minecraft/server/ContainerHorse
+ada net/minecraft/server/InventoryHorseChest
+add net/minecraft/server/InventoryMerchant
+	a merchant
+	b itemsInSlots
+	c player
+	d recipe
+	e selectedIndex
+	j ()Laje; getRecipe
+adc net/minecraft/server/ContainerPlayer
+	a craftInventory
+	f resultInventory
+	i owner
+adf net/minecraft/server/SlotMerchantResult
+ade net/minecraft/server/ContainerMerchant
+	a merchant
+adh net/minecraft/server/InventoryCraftResult
+	a items
+adg net/minecraft/server/InventoryEnderChest
+adj net/minecraft/server/ContainerShulkerBox
+adi net/minecraft/server/SlotResult
+adl net/minecraft/server/Slot
+	a index
+	d inventory
+	e rawSlotIndex
+	a ()I getMaxStackSize
+	a (Laay;)Z isAllowed
+	a (Lafj;)Z isAllowed
+	b (Lafj;)I getMaxStackSize
+	d ()Lafj; getItem
+	d (Lafj;)V set
+	e ()Z hasItem
+adk net/minecraft/server/SlotShulkerBox
+adn net/minecraft/server/ItemAir
+adp net/minecraft/server/ItemArmor
+ado net/minecraft/server/ItemAnvil
+adr net/minecraft/server/ItemArrow
+adq net/minecraft/server/ItemArmorStand
+adt net/minecraft/server/ItemBanner
+ads net/minecraft/server/ItemAxe
+adv net/minecraft/server/ItemBlock
+	d ()Lalu; getBlock
+adu net/minecraft/server/ItemBed
+adx net/minecraft/server/ItemBoat
+adw net/minecraft/server/ItemReed
+adz net/minecraft/server/ItemGlassBottle
+ady net/minecraft/server/ItemBook
+aea net/minecraft/server/ItemBow
+aec net/minecraft/server/ItemBucket
+aeb net/minecraft/server/ItemSoup
+aee net/minecraft/server/ItemChorusFruit
+aed net/minecraft/server/ItemCarrotStick
+aeg net/minecraft/server/ItemCoal
+aef net/minecraft/server/ItemClock
+aei net/minecraft/server/ItemWorldMapBase
+aeh net/minecraft/server/ItemCompass
+aek net/minecraft/server/ItemTool
+aej net/minecraft/server/CreativeModeTab
+akn$a net/minecraft/server/BiomeBigHills$Type
+	a NORMAL
+	b EXTRA_TREES
+	c MUTATED
+aem net/minecraft/server/EnumColor
+	a WHITE
+	b ORANGE
+	c MAGENTA
+	d LIGHT_BLUE
+	e YELLOW
+	f LIME
+	g PINK
+	h GRAY
+	i SILVER
+	j CYAN
+	k PURPLE
+	l BLUE
+	m BROWN
+	n GREEN
+	o RED
+	p BLACK
+	a ()I getColorIndex
+	a (I)Laem; fromInvColorIndex
+	b ()I getInvColorIndex
+	b (I)Laem; fromColorIndex
+ael net/minecraft/server/ItemDoor
+aeo net/minecraft/server/ItemCloth
+aen net/minecraft/server/ItemDye
+aeq net/minecraft/server/ItemElytra
+aep net/minecraft/server/ItemEgg
+aes net/minecraft/server/ItemEnchantedBook
+aer net/minecraft/server/ItemMapEmpty
+aeu net/minecraft/server/ItemEnderEye
+aet net/minecraft/server/ItemEndCrystal
+aew net/minecraft/server/ItemExpBottle
+aev net/minecraft/server/ItemEnderPearl
+aey net/minecraft/server/ItemFireworksCharge
+aex net/minecraft/server/ItemFireball
+aez net/minecraft/server/ItemFireworks
+afb net/minecraft/server/ItemFishingRod
+afa net/minecraft/server/ItemFish
+afd net/minecraft/server/ItemFood
+	h (Lafj;)I getNutrition
+	i (Lafj;)F getSaturationModifier
+afc net/minecraft/server/ItemFlintAndSteel
+aff net/minecraft/server/ItemHanging
+afe net/minecraft/server/ItemGoldenApple
+afh net/minecraft/server/Item
+	g REGISTRY
+	k maxStackSize
+	o durability
+	p craftingResult
+	q name
+	a ()Ljava/lang/String; getName
+	a (I)I filterData
+	a (Lafh;)I getId
+	a (Lafj;Latl;)F getDestroySpeed
+	a (Lalu;)Lafh; getItemOf
+	a (Latl;)Z canDestroySpecialBlock
+	c (I)Lafh; getById
+	e (I)Lafh; setMaxDurability
+	k ()I getMaxStackSize
+	m ()I getMaxDurability
+	n ()Z usesDurability
+afg net/minecraft/server/ItemHoe
+afj net/minecraft/server/ItemStack
+	c count
+	e item
+	f tag
+	h damage
+	B ()I getRepairCost
+	E ()I getCount
+	a (I)Lafj; cloneAndSubtract
+	a (ILjava/util/Random;)Z isDamaged
+	a (ILsw;)V damage
+	a (Laay;Lajs;Lco;Lri;Lcv;FFF)Lrk; placeItem
+	a (Lafj;)Z doMaterialsMatch
+	a (Lafj;Lafj;)Z equals
+	a (Laii;I)V addEnchantment
+	a (Ldu;)Ldu; save
+	b ()Z isEmpty
+	b (I)V setData
+	b (Lafj;Lafj;)Z matches
+	b (Ldu;)V setTag
+	c ()Lafh; getItem
+	c (I)V setRepairCost
+	d ()I getMaxStackSize
+	e ()Z isStackable
+	e (I)V setCount
+	f (I)V add
+	g ()Z usesData
+	g (I)V subtract
+	j ()I getData
+	l ()Lafj; cloneItemStack
+	o ()Z hasTag
+	p ()Ldu; getTag
+	q ()Lea; getEnchantments
+	r ()Ljava/lang/String; getName
+	t ()Z hasName
+	w ()Z canEnchant
+	x ()Z hasEnchantments
+afi net/minecraft/server/ItemCooldown
+afl net/minecraft/server/Items
+	A DIAMOND_AXE
+	B STICK
+	C BOWL
+	D MUSHROOM_STEW
+	E GOLDEN_SWORD
+	F GOLDEN_SHOVEL
+	G GOLDEN_PICKAXE
+	H GOLDEN_AXE
+	I STRING
+	J FEATHER
+	K GUNPOWDER
+	L WOODEN_HOE
+	M STONE_HOE
+	N IRON_HOE
+	O DIAMOND_HOE
+	P GOLDEN_HOE
+	Q WHEAT_SEEDS
+	R WHEAT
+	S BREAD
+	T LEATHER_HELMET
+	U LEATHER_CHESTPLATE
+	V LEATHER_LEGGINGS
+	W LEATHER_BOOTS
+	X CHAINMAIL_HELMET
+	Y CHAINMAIL_CHESTPLATE
+	Z CHAINMAIL_LEGGINGS
+	aA WATER_BUCKET
+	aB LAVA_BUCKET
+	aC MINECART
+	aD SADDLE
+	aE IRON_DOOR
+	aF REDSTONE
+	aG SNOWBALL
+	aN LEATHER
+	aO MILK_BUCKET
+	aP BRICK
+	aQ CLAY_BALL
+	aR REEDS
+	aS PAPER
+	aT BOOK
+	aU SLIME
+	aV CHEST_MINECART
+	aW FURNACE_MINECART
+	aX EGG
+	aY COMPASS
+	aZ FISHING_ROD
+	aa CHAINMAIL_BOOTS
+	ab IRON_HELMET
+	ac IRON_CHESTPLATE
+	ad IRON_LEGGINGS
+	ae IRON_BOOTS
+	af DIAMOND_HELMET
+	ag DIAMOND_CHESTPLATE
+	ah DIAMOND_LEGGINGS
+	ai DIAMOND_BOOTS
+	aj GOLDEN_HELMET
+	ak GOLDEN_CHESTPLATE
+	al GOLDEN_LEGGINGS
+	am GOLDEN_BOOTS
+	an FLINT
+	ao PORKCHOP
+	ap COOKED_PORKCHOP
+	aq PAINTING
+	ar GOLDEN_APPLE
+	as SIGN
+	at WOODEN_DOOR
+	au SPRUCE_DOOR
+	av BIRCH_DOOR
+	aw JUNGLE_DOOR
+	ax ACACIA_DOOR
+	ay DARK_OAK_DOOR
+	az BUCKET
+	b IRON_SHOVEL
+	bA RABBIT_HIDE
+	bB ROTTEN_FLESH
+	bC ENDER_PEARL
+	bD BLAZE_ROD
+	bE GHAST_TEAR
+	bF GOLD_NUGGET
+	bG NETHER_WART
+	bH POTION
+	bI SPLASH_POTION
+	bJ LINGERING_POTION
+	bK GLASS_BOTTLE
+	bL DRAGON_BREATH
+	bM SPIDER_EYE
+	bN FERMENTED_SPIDER_EYE
+	bO BLAZE_POWDER
+	bP MAGMA_CREAM
+	bQ BREWING_STAND
+	bR CAULDRON
+	bS ENDER_EYE
+	bT SPECKLED_MELON
+	bU SPAWN_EGG
+	bV EXPERIENCE_BOTTLE
+	bW FIRE_CHARGE
+	bX WRITABLE_BOOK
+	bY WRITTEN_BOOK
+	bZ EMERALD
+	ba CLOCK
+	bb GLOWSTONE_DUST
+	bc FISH
+	bd COOKED_FISH
+	be DYE
+	bf BONE
+	bg SUGAR
+	bh CAKE
+	bi BED
+	bj REPEATER
+	bk COOKIE
+	bl FILLED_MAP
+	bm SHEARS
+	bn MELON
+	bo PUMPKIN_SEEDS
+	bp MELON_SEEDS
+	bq BEEF
+	br COOKED_BEEF
+	bs CHICKEN
+	bt COOKED_CHICKEN
+	bu MUTTON
+	bv COOKED_MUTTON
+	bw RABBIT
+	bx COOKED_RABBIT
+	by RABBIT_STEW
+	bz RABBIT_FOOT
+	c IRON_PICKAXE
+	cA COMMAND_BLOCK_MINECART
+	cB RECORD_13
+	cC RECORD_CAT
+	cD RECORD_BLOCKS
+	cE RECORD_CHIRP
+	cF RECORD_FAR
+	cG RECORD_MALL
+	cH RECORD_MELLOHI
+	cI RECORD_STAL
+	cJ RECORD_STRAD
+	cK RECORD_WARD
+	cL RECORD_11
+	cM RECORD_WAIT
+	cN PRISMARINE_SHARD
+	cO PRISMARINE_CRYSTALS
+	cP BANNER
+	cR SHIELD
+	cT CHORUS_FRUIT
+	cU CHORUS_FRUIT_POPPED
+	cV BEETROOT_SEEDS
+	cW BEETROOT
+	cX BEETROOT_SOUP
+	ca ITEM_FRAME
+	cb FLOWER_POT
+	cc CARROT
+	cd POTATO
+	ce BAKED_POTATO
+	cf POISONOUS_POTATO
+	cg MAP
+	ch GOLDEN_CARROT
+	ci SKULL
+	cj CARROT_ON_A_STICK
+	ck NETHER_STAR
+	cl PUMPKIN_PIE
+	cm FIREWORKS
+	cn FIREWORK_CHARGE
+	co ENCHANTED_BOOK
+	cp COMPARATOR
+	cq NETHERBRICK
+	cr QUARTZ
+	cs TNT_MINECART
+	ct HOPPER_MINECART
+	cu ARMOR_STAND
+	cv IRON_HORSE_ARMOR
+	cw GOLDEN_HORSE_ARMOR
+	cx DIAMOND_HORSE_ARMOR
+	cy LEAD
+	cz NAME_TAG
+	d IRON_AXE
+	e FLINT_AND_STEEL
+	f APPLE
+	g BOW
+	h ARROW
+	i SPECTRAL_ARROW
+	j TIPPED_ARROW
+	k COAL
+	l DIAMOND
+	m IRON_INGOT
+	n GOLD_INGOT
+	o IRON_SWORD
+	p WOODEN_SWORD
+	q WOODEN_SHOVEL
+	r WOODEN_PICKAXE
+	s WOODEN_AXE
+	t STONE_SWORD
+	u STONE_SHOVEL
+	v STONE_PICKAXE
+	w STONE_AXE
+	x DIAMOND_SWORD
+	y DIAMOND_SHOVEL
+	z DIAMOND_PICKAXE
+	a (Ljava/lang/String;)Lafh; get
+ayb$b net/minecraft/server/WorldGenEndCityPieces$PieceGenerator
+afk net/minecraft/server/IDynamicTexture
+ayb$a net/minecraft/server/WorldGenEndCityPieces$Piece
+afn net/minecraft/server/ItemLeaves
+afm net/minecraft/server/ItemLeash
+afp net/minecraft/server/ItemWorldMap
+	a (Lafj;Lajs;)Lbbn; getSavedMap
+afo net/minecraft/server/ItemLingeringPotion
+afr net/minecraft/server/ItemMinecart
+afq net/minecraft/server/ItemMilkBucket
+aft net/minecraft/server/ItemNameTag
+afs net/minecraft/server/ItemMultiTexture
+	a (I)I filterData
+afv net/minecraft/server/ItemPiston
+afu net/minecraft/server/ItemPickaxe
+afx net/minecraft/server/EnumItemRarity
+	a COMMON
+	b UNCOMMON
+	c RARE
+	d EPIC
+afw net/minecraft/server/ItemPotion
+afz net/minecraft/server/ItemRedstone
+afy net/minecraft/server/ItemRecord
+bbn$a net/minecraft/server/WorldMap$WorldMapHumanTracker
+	a trackee
+	c worldMap
+aga net/minecraft/server/ItemSaddle
+agc net/minecraft/server/ItemSeeds
+agb net/minecraft/server/ItemSeedFood
+age net/minecraft/server/ItemShears
+agd net/minecraft/server/ItemCooldownPlayer
+agg net/minecraft/server/ItemSpade
+agf net/minecraft/server/ItemShield
+agi net/minecraft/server/ItemSign
+agh net/minecraft/server/ItemShulkerBox
+ava$a net/minecraft/server/OldChunkLoader$OldChunk
+agk net/minecraft/server/ItemSkull
+agj net/minecraft/server/ItemNetherStar
+agm net/minecraft/server/ItemSnow
+agl net/minecraft/server/ItemStep
+ago net/minecraft/server/ItemMonsterEgg
+agn net/minecraft/server/ItemSnowball
+agq net/minecraft/server/ItemSplashPotion
+agp net/minecraft/server/ItemSpectralArrow
+ags net/minecraft/server/ItemWithAuxData
+agr net/minecraft/server/ItemSword
+agu net/minecraft/server/EnumAnimation
+	a NONE
+	b EAT
+	c DRINK
+	d BLOCK
+	e BOW
+agt net/minecraft/server/ItemTippedArrow
+agw net/minecraft/server/ItemBookAndQuill
+agv net/minecraft/server/ItemWaterLily
+agy net/minecraft/server/PotionRegistry
+agx net/minecraft/server/ItemWrittenBook
+agz net/minecraft/server/PotionBrewer
+ahb net/minecraft/server/Potions
+	a EMPTY
+aha net/minecraft/server/PotionUtil
+	a (Lafj;)Ljava/util/List; getEffects
+ahd net/minecraft/server/RecipeArmorDye
+ahf net/minecraft/server/RecipesBanner
+ahe net/minecraft/server/RecipesArmor
+ahh net/minecraft/server/RecipesDyes
+ahg net/minecraft/server/RecipeBookClone
+ahj net/minecraft/server/RecipesFood
+ahi net/minecraft/server/RecipeFireworks
+ahl net/minecraft/server/RecipeMapClone
+ahk net/minecraft/server/RecipesFurnace
+	b recipes
+	c experience
+	a ()Lahk; getInstance
+	a (Lafj;)Lafj; getResult
+	a (Lalu;Lafj;F)V registerRecipe
+	b ()Ljava/util/Map; getRecipes
+ahn net/minecraft/server/RecipeIngots
+ahm net/minecraft/server/RecipeMapExtend
+ahp net/minecraft/server/CraftingManager
+	b recipes
+	a ()Lahp; getInstance
+	a (Lacs;Lajs;)Lafj; craft
+	a (Lafj;[Ljava/lang/Object;)Lahr; registerShapedRecipe
+	b ()Ljava/util/List; getRecipes
+	b (Lafj;[Ljava/lang/Object;)V registerShapelessRecipe
+aho net/minecraft/server/IRecipe
+	a (Lacs;)Lafj; craftItem
+ahr net/minecraft/server/ShapedRecipes
+	a width
+	b height
+	c items
+	d result
+ahq net/minecraft/server/RecipeRepair
+aht net/minecraft/server/RecipiesShield
+ahs net/minecraft/server/ShapelessRecipes
+	a result
+	b ingredients
+ahv net/minecraft/server/RecipesCrafting
+ahu net/minecraft/server/RecipeShulkerBox
+ahx net/minecraft/server/RecipesTools
+ahw net/minecraft/server/RecipeTippedArrow
+ahy net/minecraft/server/RecipesWeapons
+auo$a net/minecraft/server/Chunk$EnumTileEntityState
+	a IMMEDIATE
+	b QUEUED
+	c CHECK
+aia net/minecraft/server/EnchantmentArrowDamage
+aic net/minecraft/server/EnchantmentInfiniteArrows
+aib net/minecraft/server/EnchantmentFlameArrows
+aie net/minecraft/server/EnchantmentBinding
+aid net/minecraft/server/EnchantmentArrowKnockback
+aig net/minecraft/server/EnchantmentDurability
+aif net/minecraft/server/EnchantmentWeaponDamage
+aii net/minecraft/server/Enchantment
+	b enchantments
+	c itemTarget
+	a (Lafj;)Z canEnchant
+	b ()I getMaxLevel
+	b (Laii;)I getId
+	c ()Z isTreasure
+	f ()I getStartLevel
+aih net/minecraft/server/EnchantmentDigging
+aik net/minecraft/server/EnchantmentManager
+	a (Laii;Lafj;)I getEnchantmentLevel
+	c (Lsw;)I getFireAspectEnchantmentLevel
+	d (Lsw;)I getOxygenEnchantmentLevel
+	f (Lsw;)I getDigSpeedEnchantmentLevel
+aij net/minecraft/server/EnchantmentSlotType
+	a ALL
+	b ARMOR
+	c ARMOR_FEET
+	d ARMOR_LEGS
+	e ARMOR_CHEST
+	f ARMOR_HEAD
+	g WEAPON
+	h DIGGER
+	i FISHING_ROD
+	j BREAKABLE
+	k BOW
+	l WEARABLE
+	a (Lafh;)Z canEnchant
+aim net/minecraft/server/Enchantments
+	A LUCK
+	B LURE
+	a PROTECTION_ENVIRONMENTAL
+	b PROTECTION_FIRE
+	c PROTECTION_FALL
+	d PROTECTION_EXPLOSIONS
+	e PROTECTION_PROJECTILE
+	f OXYGEN
+	g WATER_WORKER
+	h THORNS
+	i DEPTH_STRIDER
+	l DAMAGE_ALL
+	m DAMAGE_UNDEAD
+	n DAMAGE_ARTHROPODS
+	o KNOCKBACK
+	p FIRE_ASPECT
+	q LOOT_BONUS_MOBS
+	s DIG_SPEED
+	t SILK_TOUCH
+	u DURABILITY
+	v LOOT_BONUS_BLOCKS
+	w ARROW_DAMAGE
+	x ARROW_KNOCKBACK
+	y ARROW_FIRE
+	z ARROW_INFINITE
+ail net/minecraft/server/WeightedRandomEnchant
+	b enchantment
+	c level
+aio net/minecraft/server/EnchantmentLure
+ain net/minecraft/server/EnchantmentFire
+aiq net/minecraft/server/EnchantmentKnockback
+aip net/minecraft/server/EnchantmentFrostWalker
+ais net/minecraft/server/EnchantmentMending
+air net/minecraft/server/EnchantmentLootBonus
+aiu net/minecraft/server/EnchantmentProtection
+ait net/minecraft/server/EnchantmentOxygen
+aiw net/minecraft/server/EnchantmentThorns
+aiv net/minecraft/server/EnchantmentSweeping
+aiy net/minecraft/server/EnchantmentVanishing
+aix net/minecraft/server/EnchantmentSilkTouch
+aiz net/minecraft/server/EnchantmentDepthStrider
+aja net/minecraft/server/EnchantmentWaterWorker
+ajd net/minecraft/server/IMerchant
+	a_ (Laay;)V setTradingPlayer
+	b_ (Laay;)Lajf; getOffers
+	i_ ()Lfb; getScoreboardDisplayName
+	s_ ()Laay; getTrader
+ajf net/minecraft/server/MerchantRecipeList
+aje net/minecraft/server/MerchantRecipe
+	a buyingItem1
+	b buyingItem2
+	c sellingItem
+	d uses
+	e maxUses
+	f rewardExp
+	a ()Lafj; getBuyItem1
+	b ()Lafj; getBuyItem2
+	c ()Z hasSecondItem
+	d ()Lafj; getBuyItem3
+ajh net/minecraft/server/CommandBlockListenerAbstract
+	a (Ljava/lang/String;)V setCommand
+	b (Ljava/lang/String;)V setName
+	m ()Ljava/lang/String; getCommand
+ajj net/minecraft/server/BlockActionData
+aji net/minecraft/server/MobSpawnerAbstract
+	a spawnDelay
+	b mobs
+	c spawnData
+	f minSpawnDelay
+	g maxSpawnDelay
+	h spawnCount
+	j maxNearbyEntities
+	k requiredPlayerRange
+	l spawnRange
+	a (Lkq;)V setMobName
+	g ()Lkq; getMobName
+ajl net/minecraft/server/ChunkCoordIntPair
+	a x
+	b z
+ajn net/minecraft/server/Explosion
+	d world
+	e posX
+	f posY
+	g posZ
+	h source
+	i size
+	j blocks
+	c ()Lsw; getSource
+	d ()V clearBlocks
+	e ()Ljava/util/List; getBlocks
+ajp net/minecraft/server/GameRules
+	a (Ljava/lang/String;)Ljava/lang/String; get
+	a (Ljava/lang/String;Ljava/lang/String;)V set
+	b ()[Ljava/lang/String; getGameRules
+	b (Ljava/lang/String;)Z getBoolean
+	e (Ljava/lang/String;)Z contains
+ajq net/minecraft/server/EnumGamemode
+	a NOT_SET
+	b SURVIVAL
+	c CREATIVE
+	d ADVENTURE
+	e SPECTATOR
+	a ()I getId
+	a (I)Lajq; getById
+	d ()Z isCreative
+alq$a net/minecraft/server/BlockMinecartTrackAbstract$MinecartTrackLogic
+ajt net/minecraft/server/ExceptionWorldConflict
+ajs net/minecraft/server/World
+	A villages
+	C methodProfiler
+	D scoreboard
+	E isClientSide
+	F allowMonsters
+	G allowAnimals
+	c tileEntityListUnload
+	e entityList
+	g tileEntityList
+	h tileEntityListTick
+	i players
+	k entitiesById
+	r random
+	s worldProvider
+	v chunkProvider
+	w dataManager
+	x worldData
+	y isLoading
+	z worldMaps
+	A ()Lakj; getWorldChunkManager
+	B (Lco;)Z isRainingAt
+	N ()V checkSession
+	O ()J getSeed
+	P ()J getTime
+	Q ()J getDayTime
+	R ()Lco; getSpawn
+	S ()Lbbw; getDataManager
+	T ()Lbbv; getWorldData
+	U ()Lajp; getGameRules
+	Y ()I getHeight
+	a (DDDD)Z isPlayerNearby
+	a (I)Lsn; getEntity
+	a (II)Lauo; getChunkAt
+	a (IIIIIIZ)Z isAreaLoaded
+	a (IIZ)Z isChunkLoaded
+	a (Laay;Lco;Lcv;)Z douseFire
+	a (Laju;)V addIWorldAccess
+	a (Lbdw;Lbdw;)Lbdu; rayTrace
+	a (Lbdw;Lbdw;Z)Lbdu; rayTrace
+	a (Lbdw;Lbdw;ZZZ)Lbdu; rayTrace
+	a (Lco;)Z isValidLocation
+	a (Lco;I)Z areChunksLoaded
+	a (Lco;IZ)Z areChunksLoaded
+	a (Lco;Lalu;Z)V update
+	a (Lco;Lasc;)V setTileEntity
+	a (Lco;Latl;)Z setTypeUpdate
+	a (Lco;Latl;I)Z setTypeAndData
+	a (Lco;Latl;Latl;I)V notify
+	a (Lco;Lco;)Z areChunksLoadedBetween
+	a (Lco;Lco;Z)Z areChunksLoadedBetween
+	a (Lde;DDDDDD[I)V addParticle
+	a (Lsn;)Z addEntity
+	a (Lsn;B)V broadcastEntityEffect
+	a (Lsn;D)Laay; findNearbyPlayer
+	a (Lsn;DDDFZ)Lajn; explode
+	a (Lsn;DDDFZZ)Lajn; createExplosion
+	a (Lsn;Lbdt;)Ljava/util/List; getCubes
+	a (Lsn;Lbdt;Lcom/google/common/base/Predicate;)Ljava/util/List; getEntities
+	a (Lsn;Z)V entityJoinedWorld
+	a (ZZ)V setSpawnFlags
+	ad ()Lbec; getScoreboard
+	ae ()Lrg; getDifficulty
+	aj ()Lauf; getWorldBorder
+	b (ILco;I)V triggerEffect
+	b (J)V setDayTime
+	b (Lajy;Lco;)I getBrightness
+	b (Lco;)Lakf; getBiome
+	b (Lco;Lalu;Z)V applyPhysics
+	b (Lco;Lcv;)Z isBlockFacePowered
+	b (Lco;Z)Z setAir
+	b (Lsn;Lbdt;)Ljava/util/List; getEntities
+	c (Lco;Lalu;II)V playBlockAction
+	c (Lco;Lcv;)I getBlockFacePower
+	d ()V doTick
+	d (Lbdt;)Z containsLiquid
+	d (Lco;Lalu;)V updateAdjacentComparators
+	d (Lsn;)Z strikeLightning
+	e ()V everyoneSleeping
+	e (Lco;)Z isLoaded
+	e (Lsn;)V kill
+	f (Lco;)Lauo; getChunkAtWorldCoords
+	f (Lsn;)V removeEntity
+	g (Lco;)Z setAir
+	k ()V tickEntities
+	k (Lco;)I getLightLevel
+	l (Lco;)Lco; getHighestBlockYAt
+	u ()Lnet/minecraft/server/MinecraftServer; getMinecraftServer
+	x (Lco;)I getBlockPower
+	y (Lco;)Z isBlockIndirectlyPowered
+	z ()Lauj; getChunkProvider
+ajv net/minecraft/server/WorldSettings
+	a (Ljava/lang/String;)Lajv; setGeneratorSettings
+alq$b net/minecraft/server/BlockMinecartTrackAbstract$EnumTrackPosition
+	a NORTH_SOUTH
+	b EAST_WEST
+	c ASCENDING_EAST
+	d ASCENDING_WEST
+	e ASCENDING_NORTH
+	f ASCENDING_SOUTH
+	g SOUTH_EAST
+	h SOUTH_WEST
+	i NORTH_WEST
+	j NORTH_EAST
+aju net/minecraft/server/IWorldAccess
+ajx net/minecraft/server/WorldType
+	a types
+	b NORMAL
+	c FLAT
+	d LARGE_BIOMES
+	e AMPLIFIED
+	f CUSTOMIZED
+	g DEBUG_ALL_BLOCK_STATES
+	h NORMAL_1_1
+	j name
+	k version
+	a ()Ljava/lang/String; name
+	a (Ljava/lang/String;)Lajx; getType
+	d ()I getVersion
+ajw net/minecraft/server/IBlockAccess
+	a (Lco;Lcv;)I getBlockPower
+	d (Lco;)Z isEmpty
+	o (Lco;)Latl; getType
+	r (Lco;)Lasc; getTileEntity
+ajz net/minecraft/server/SpawnerCreature
+	a (Lajs;II)Lco; getRandomPosition
+ajy net/minecraft/server/EnumSkyBlock
+	a SKY
+	b BLOCK
+aka net/minecraft/server/PortalTravelAgent
+	a world
+akc net/minecraft/server/MobSpawnerData
+akb net/minecraft/server/ChunkCache
+ake net/minecraft/server/BiomeBeach
+akd net/minecraft/server/NextTickListEntry
+akg net/minecraft/server/BiomeCache
+akf net/minecraft/server/BiomeBase
+	q REGISTRY_ID
+	a (ILakf;)Lakf; getBiome
+	a (Lsy;)Ljava/util/List; getMobs
+	b (I)Lakf; getBiome
+	k ()F getHumidity
+	n ()F getTemperature
+aki net/minecraft/server/BiomeDecorator
+akk net/minecraft/server/Biomes
+iz$c net/minecraft/server/PacketPlayInFlying$PacketPlayInLook
+akj net/minecraft/server/WorldChunkManager
+	a (Lco;)Lakf; getBiome
+	a (Lco;Lakf;)Lakf; getBiome
+	a ([Lakf;IIII)[Lakf; getBiomes
+	b ([Lakf;IIII)[Lakf; getBiomeBlock
+akm net/minecraft/server/BiomeDesert
+ako net/minecraft/server/WorldChunkManagerHell
+akn net/minecraft/server/BiomeBigHills
+akq net/minecraft/server/BiomeHell
+akp net/minecraft/server/BiomeForest
+aks net/minecraft/server/BiomeIcePlains
+akr net/minecraft/server/BiomeDecoratorHell
+aku net/minecraft/server/BiomeMesa
+akt net/minecraft/server/BiomeJungle
+akw net/minecraft/server/BiomeForestMutated
+akv net/minecraft/server/BiomeMushrooms
+aky net/minecraft/server/BiomeOcean
+akx net/minecraft/server/BiomeSavannaMutated
+akz net/minecraft/server/BiomePlains
+atp$b net/minecraft/server/ShapeDetector$ShapeDetectorCollection
+	b ()Lcv; getFacing
+alb net/minecraft/server/BiomeSavanna
+atp$a net/minecraft/server/ShapeDetector$BlockLoader
+ala net/minecraft/server/BiomeRiver
+ald net/minecraft/server/BiomeSwamp
+alc net/minecraft/server/BiomeStoneBeach
+alf net/minecraft/server/BiomeTheEnd
+ale net/minecraft/server/BiomeTaiga
+alh net/minecraft/server/BiomeVoid
+alg net/minecraft/server/BiomeTheEndDecorator
+iz$b net/minecraft/server/PacketPlayInFlying$PacketPlayInPositionLook
+iz$a net/minecraft/server/PacketPlayInFlying$PacketPlayInPosition
+ali net/minecraft/server/BiomeVoidDecorator
+all net/minecraft/server/BlockAnvil
+	a FACING
+	b DAMAGE
+alk net/minecraft/server/BlockAir
+aln net/minecraft/server/BlockBarrier
+alm net/minecraft/server/BlockBanner
+	a FACING
+	b ROTATION
+alp net/minecraft/server/BlockPressurePlateAbstract
+	i (Latl;)I getPower
+alo net/minecraft/server/BlockTileEntity
+alr net/minecraft/server/BlockBeacon
+alq net/minecraft/server/BlockMinecartTrackAbstract
+alt net/minecraft/server/BlockBeetroot
+als net/minecraft/server/BlockBed
+	a PART
+	b OCCUPIED
+alv net/minecraft/server/Blocks
+	A SANDSTONE
+	B NOTEBLOCK
+	C BED
+	D GOLDEN_RAIL
+	E DETECTOR_RAIL
+	F STICKY_PISTON
+	G WEB
+	H TALLGRASS
+	I DEADBUSH
+	J PISTON
+	K PISTON_HEAD
+	L WOOL
+	M PISTON_EXTENSION
+	N YELLOW_FLOWER
+	O RED_FLOWER
+	P BROWN_MUSHROOM
+	Q RED_MUSHROOM
+	R GOLD_BLOCK
+	S IRON_BLOCK
+	T DOUBLE_STONE_SLAB
+	U STONE_SLAB
+	V BRICK_BLOCK
+	W TNT
+	X BOOKSHELF
+	Y MOSSY_COBBLESTONE
+	Z OBSIDIAN
+	a AIR
+	aA IRON_DOOR
+	aB WOODEN_PRESSURE_PLATE
+	aC REDSTONE_ORE
+	aD LIT_REDSTONE_ORE
+	aE UNLIT_REDSTONE_TORCH
+	aF REDSTONE_TORCH
+	aG STONE_BUTTON
+	aH SNOW_LAYER
+	aI ICE
+	aJ SNOW
+	aK CACTUS
+	aL CLAY
+	aM REEDS
+	aN JUKEBOX
+	aO FENCE
+	aP SPRUCE_FENCE
+	aQ BIRCH_FENCE
+	aR JUNGLE_FENCE
+	aS DARK_OAK_FENCE
+	aT ACACIA_FENCE
+	aU PUMPKIN
+	aV NETHERRACK
+	aW SOUL_SAND
+	aX GLOWSTONE
+	aY PORTAL
+	aZ LIT_PUMPKIN
+	aa TORCH
+	ab FIRE
+	ac MOB_SPAWNER
+	ad OAK_STAIRS
+	ae CHEST
+	af REDSTONE_WIRE
+	ag DIAMOND_ORE
+	ah DIAMOND_BLOCK
+	ai CRAFTING_TABLE
+	aj WHEAT
+	ak FARMLAND
+	al FURNACE
+	am LIT_FURNACE
+	an STANDING_SIGN
+	ao WOODEN_DOOR
+	ap SPRUCE_DOOR
+	aq BIRCH_DOOR
+	ar JUNGLE_DOOR
+	as ACACIA_DOOR
+	at DARK_OAK_DOOR
+	au LADDER
+	av RAIL
+	aw STONE_STAIRS
+	ax WALL_SIGN
+	ay LEVER
+	az STONE_PRESSURE_PLATE
+	b STONE
+	bA NETHER_BRICK_STAIRS
+	bB NETHER_WART
+	bC ENCHANTING_TABLE
+	bD BREWING_STAND
+	bE cauldron
+	bF END_PORTAL
+	bG END_PORTAL_FRAME
+	bH END_STONE
+	bI DRAGON_EGG
+	bJ REDSTONE_LAMP
+	bK LIT_REDSTONE_LAMP
+	bL DOUBLE_WOODEN_SLAB
+	bM WOODEN_SLAB
+	bN COCOA
+	bO SANDSTONE_STAIRS
+	bP EMERALD_ORE
+	bQ ENDER_CHEST
+	bR TRIPWIRE_HOOK
+	bS TRIPWIRE
+	bT EMERALD_BLOCK
+	bU SPRUCE_STAIRS
+	bV BIRCH_STAIRS
+	bW JUNGLE_STAIRS
+	bX COMMAND_BLOCK
+	bY BEACON
+	bZ COBBLESTONE_WALL
+	ba CAKE
+	bb UNPOWERED_REPEATER
+	bc POWERED_REPEATER
+	bd TRAPDOOR
+	be MONSTER_EGG
+	bf STONEBRICK
+	bg BROWN_MUSHROOM_BLOCK
+	bh RED_MUSHROOM_BLOCK
+	bi IRON_BARS
+	bj GLASS_PANE
+	bk MELON_BLOCK
+	bl PUMPKIN_STEM
+	bm MELON_STEM
+	bn VINE
+	bo FENCE_GATE
+	bp SPRUCE_FENCE_GATE
+	bq BIRCH_FENCE_GATE
+	br JUNGLE_FENCE_GATE
+	bs DARK_OAK_FENCE_GATE
+	bt ACACIA_FENCE_GATE
+	bu BRICK_STAIRS
+	bv STONE_BRICK_STAIRS
+	bw MYCELIUM
+	bx WATERLILY
+	by NETHER_BRICK
+	bz NETHER_BRICK_FENCE
+	c GRASS
+	cA COAL_BLOCK
+	cB PACKED_ICE
+	cC ACACIA_STAIRS
+	cD DARK_OAK_STAIRS
+	cE SLIME
+	cF DOUBLE_PLANT
+	cG STAINED_GLASS
+	cH STAINED_GLASS_PANE
+	cI PRISMARINE
+	cJ SEA_LANTERN
+	cK STANDING_BANNER
+	cL WALL_BANNER
+	cM RED_SANDSTONE
+	cN RED_SANDSTONE_STAIRS
+	cO DOUBLE_STONE_SLAB2
+	cP STONE_SLAB2
+	cQ END_ROD
+	cR CHORUS_PLANT
+	cS CHORUS_FLOWER
+	cT PURPUR_BLOCK
+	cU PURPUR_PILLAR
+	cV PURPUR_STAIRS
+	cW PURPUR_DOUBLE_SLAB
+	cX PURPUR_SLAB
+	cY END_BRICKS
+	cZ BEETROOT
+	ca FLOWER_POT
+	cb CARROTS
+	cc POTATOES
+	cd WOODEN_BUTTON
+	ce SKULL
+	cf ANVIL
+	cg TRAPPED_CHEST
+	ch LIGHT_WEIGHTED_PRESSURE_PLATE
+	ci HEAVY_WEIGHTED_PRESSURE_PLATE
+	cj UNPOWERED_COMPARATOR
+	ck POWERED_COMPARATOR
+	cl DAYLIGHT_DETECTOR
+	cm DAYLIGHT_DETECTOR_INVERTED
+	cn REDSTONE_BLOCK
+	co QUARTZ_ORE
+	cp HOPPER
+	cq QUARTZ_BLOCK
+	cr QUARTZ_STAIRS
+	cs ACTIVATOR_RAIL
+	ct DROPPER
+	cu STAINED_HARDENED_CLAY
+	cv BARRIER
+	cw IRON_TRAPDOOR
+	cx HAY_BLOCK
+	cy CARPET
+	cz HARDENED_CLAY
+	d DIRT
+	dB STRUCTURE_BLOCK
+	da GRASS_PATH
+	db END_GATEWAY
+	de FROSTED_ICE
+	dl WHITE_SHULKER_BOX
+	do LIGHT_BLUE_SHULKER_BOX
+	e COBBLESTONE
+	f PLANKS
+	g SAPLING
+	h BEDROCK
+	i FLOWING_WATER
+	j WATER
+	k FLOWING_LAVA
+	l LAVA
+	m SAND
+	n GRAVEL
+	o GOLD_ORE
+	p IRON_ORE
+	q COAL_ORE
+	r LOG
+	s LOG2
+	t LEAVES
+	u LEAVES2
+	v SPONGE
+	w GLASS
+	x LAPIS_ORE
+	y LAPIS_BLOCK
+	z DISPENSER
+	a (Ljava/lang/String;)Lalu; get
+alu net/minecraft/server/Block
+	A blockStateList
+	b creativeTab
+	c blockData
+	d name
+	h REGISTRY
+	i REGISTRY_ID
+	q strength
+	r durability
+	u isTileEntity
+	v stepSound
+	x material
+	z frictionFactor
+	a (I)Latl; fromLegacyData
+	a (ILjava/util/Random;)I getDropCount
+	a (Lafh;)Lalu; asBlock
+	a (Lajs;Lco;)Z canPlace
+	a (Lajs;Lco;Laay;)V attack
+	a (Lajs;Lco;Lajn;)V wasExploded
+	a (Lajs;Lco;Latl;FI)V dropNaturally
+	a (Lajs;Lco;Latl;Laay;Lri;Lcv;FFF)Z interact
+	a (Lajs;Lco;Latl;Lsw;Lafj;)V postPlace
+	a (Lajs;Lco;Lcv;FFFILsw;)Latl; getPlacedState
+	a (Lajs;Lco;Lsn;)V stepOn
+	a (Lajs;Lco;Lsn;F)V fallOn
+	a (Lalu;)I getId
+	a (Latl;Laay;Lajs;Lco;)F getDamage
+	a (Latl;Ljava/util/Random;I)Lafh; getDropType
+	b ()Latm; getStateList
+	b (I)Lalu; getById
+	b (Lajs;Lco;I)V dropExperience
+	b (Lajs;Lco;Latl;)V remove
+	b (Lajs;Lco;Lcv;)Z canPlace
+	b (Ljava/lang/String;)Lalu; getByName
+	c ()Ljava/lang/String; getName
+	c (I)Latl; getByCombinedId
+	c (Lajs;Lco;Latl;)V onPlace
+	c (Latl;Lajw;Lco;)Latl; updateState
+	d (Lajs;Lco;Latl;)V postBreak
+	d (Latl;)I getDropData
+	e (Latl;)I toLegacyData
+	g (Latl;)Z isPowerSource
+	j (Latl;)I getCombinedId
+	k ()Z isTicking
+	l ()Z isTileEntity
+	t ()Latl; getBlockData
+	t (Latl;)Z isOccluding
+	v ()Laqu; getStepSound
+	x (Latl;)Z isComplexRedstone
+alx net/minecraft/server/IBlockFragilePlantElement
+gg$a net/minecraft/server/PacketPlayOutMultiBlockChange$MultiBlockChangeInfo
+alw net/minecraft/server/BlockBone
+alz net/minecraft/server/BlockBrewingStand
+	a HAS_BOTTLE
+aly net/minecraft/server/BlockBookshelf
+aqk$a net/minecraft/server/BlockSandStone$EnumSandstoneVariant
+	a DEFAULT
+	b CHISELED
+	c SMOOTH
+ama net/minecraft/server/BlockPlant
+	a (Lajs;Lco;)Z canPlace
+amc net/minecraft/server/BlockCactus
+	a AGE
+amb net/minecraft/server/BlockButtonAbstract
+	a POWERED
+ame net/minecraft/server/BlockCarrots
+amd net/minecraft/server/BlockCake
+	a BITES
+amg net/minecraft/server/BlockChest
+	a FACING
+amf net/minecraft/server/BlockCauldron
+	a LEVEL
+ami net/minecraft/server/BlockChorusFruit
+amh net/minecraft/server/BlockChorusFlower
+	a AGE
+amk net/minecraft/server/BlockCocoa
+	a AGE
+amj net/minecraft/server/BlockClay
+amm net/minecraft/server/BlockCommand
+aml net/minecraft/server/BlockCloth
+	a COLOR
+amo net/minecraft/server/BlockWorkbench
+amn net/minecraft/server/BlockRedstoneComparator
+	a POWERED
+	b MODE
+amq net/minecraft/server/BlockDaylightDetector
+	a POWER
+amp net/minecraft/server/BlockCrops
+	c AGE
+	a (Lajs;Lco;Latl;FI)V dropNaturally
+	e (I)Latl; setAge
+ams net/minecraft/server/BlockMinecartDetector
+	d SHAPE
+	e POWERED
+amr net/minecraft/server/BlockDeadBush
+amu net/minecraft/server/BlockDirectional
+	H FACING
+amt net/minecraft/server/BlockDiodeAbstract
+	D (Latl;)Z isDiode
+amw net/minecraft/server/BlockDispenser
+	a FACING
+	b TRIGGERED
+	c REGISTRY
+	c (Lajs;Lco;)V dispense
+amv net/minecraft/server/BlockDirt
+	a VARIANT
+	b SNOWY
+amy net/minecraft/server/BlockTallPlant
+	a VARIANT
+	c HALF
+amx net/minecraft/server/BlockDoor
+	a FACING
+	b OPEN
+	c HINGE
+	d POWERED
+	e HALF
+	a (Lajs;Lco;Z)V setDoor
+amz net/minecraft/server/BlockDragonEgg
+fd$a net/minecraft/server/ChatHoverable$EnumHoverAction
+	a SHOW_TEXT
+	b SHOW_ACHIEVEMENT
+	c SHOW_ITEM
+	d SHOW_ENTITY
+anb net/minecraft/server/BlockFlowing
+	a (Lajs;Lco;Latl;I)V flow
+ana net/minecraft/server/BlockDropper
+and net/minecraft/server/BlockEndGateway
+anc net/minecraft/server/BlockEnchantmentTable
+anf net/minecraft/server/BlockEnderPortalFrame
+	a FACING
+	b EYE
+ane net/minecraft/server/BlockEnderPortal
+anh net/minecraft/server/BlockEnderChest
+	a FACING
+ang net/minecraft/server/BlockEndRod
+anj net/minecraft/server/BlockFalling
+	f instaFall
+zb$a net/minecraft/server/EntityPainting$EnumArt
+	a KEBAB
+	b AZTEC
+	c ALBAN
+	d AZTEC_2
+	e BOMB
+	f PLANT
+	g WASTELAND
+	h POOL
+	i COURBET
+	j SEA
+	k SUNSET
+	l CREEBET
+	m WANDERER
+	n GRAHAM
+	o MATCH
+	p BUST
+	q STAGE
+	r VOID
+	s SKULL_AND_ROSES
+	t WITHER
+	u FIGHTERS
+	v POINTER
+	w PIGSCENE
+	x BURNING_SKULL
+	y SKELETON
+	z DONKEY_KONG
+ani net/minecraft/server/ITileEntity
+anl net/minecraft/server/BlockFence
+	a NORTH
+	b EAST
+	c SOUTH
+	d WEST
+ank net/minecraft/server/BlockSoil
+	a MOISTURE
+ann net/minecraft/server/BlockFire
+	a AGE
+	b NORTH
+	c EAST
+	d SOUTH
+	e WEST
+	f UPPER
+	g flameChances
+anm net/minecraft/server/BlockFenceGate
+	a OPEN
+	b POWERED
+	c IN_WALL
+anp net/minecraft/server/BlockFlowerPot
+	a LEGACY_DATA
+	b CONTENTS
+ano net/minecraft/server/BlockFlowers
+	a TYPE
+ayf$a net/minecraft/server/WorldGenNether$WorldGenNetherStart
+anr net/minecraft/server/BlockDoubleStoneStep2
+anq net/minecraft/server/BlockIceFrost
+ant net/minecraft/server/BlockDoubleWoodStep
+ans net/minecraft/server/BlockDoubleStep
+anv net/minecraft/server/BlockGlass
+anu net/minecraft/server/BlockFurnace
+	a FACING
+anx net/minecraft/server/BlockGrass
+	a SNOWY
+anw net/minecraft/server/BlockLightStone
+anz net/minecraft/server/BlockGravel
+any net/minecraft/server/BlockGrassPath
+aoa net/minecraft/server/BlockStoneStep2
+aoc net/minecraft/server/BlockStep
+aob net/minecraft/server/BlockStepAbstract
+	a HALF
+aoe net/minecraft/server/BlockWoodStep
+aod net/minecraft/server/BlockHalfTransparent
+aog net/minecraft/server/BlockHay
+aof net/minecraft/server/BlockHardenedClay
+aoi net/minecraft/server/BlockFacingHorizontal
+	D FACING
+aoh net/minecraft/server/BlockHopper
+	a FACING
+	b ENABLED
+aok net/minecraft/server/BlockIce
+aka$a net/minecraft/server/PortalTravelAgent$ChunkCoordinatesPortal
+aoj net/minecraft/server/BlockHugeMushroom
+	a VARIANT
+aom net/minecraft/server/BlockLadder
+	a FACING
+aol net/minecraft/server/BlockJukeBox
+	a HAS_RECORD
+	e (Lajs;Lco;Latl;)V dropRecord
+aon net/minecraft/server/BlockLeaves
+	a DECAYABLE
+	b CHECK_DECAY
+aoq net/minecraft/server/BlockFluids
+	b LEVEL
+	b (Lajs;Lco;)V fizz
+	c (Lajs;Lco;Latl;)V onPlace
+aop net/minecraft/server/BlockLever
+	a FACING
+	b POWERED
+aos net/minecraft/server/BlockMagma
+er$a net/minecraft/server/NetworkManager$QueuedPacket
+aor net/minecraft/server/BlockLogAbstract
+	a AXIS
+aou net/minecraft/server/EnumBlockMirror
+	a NONE
+	b LEFT_RIGHT
+	c FRONT_BACK
+aot net/minecraft/server/BlockMelon
+aow net/minecraft/server/BlockMonsterEggs
+	a VARIANT
+aov net/minecraft/server/BlockMobSpawner
+aoy net/minecraft/server/BlockMycel
+	a SNOWY
+hf$a net/minecraft/server/PacketPlayOutCombatEvent$EnumCombatEventType
+	a ENTER_COMBAT
+	b END_COMBAT
+	c ENTITY_DIED
+aox net/minecraft/server/BlockMushroom
+aoz net/minecraft/server/BlockNetherbrick
+apb net/minecraft/server/BlockBloodStone
+apa net/minecraft/server/BlockNetherWart
+	a AGE
+apd net/minecraft/server/BlockLog2
+	b VARIANT
+apc net/minecraft/server/BlockLeaves2
+	e VARIANT
+apf net/minecraft/server/BlockNoDrop
+ape net/minecraft/server/BlockDoubleStoneStepAbstract
+	d SEAMLESS
+	e VARIANT
+aph net/minecraft/server/BlockObserver
+apg net/minecraft/server/BlockNote
+apj net/minecraft/server/BlockLeaves1
+	e VARIANT
+api net/minecraft/server/BlockObsidian
+apl net/minecraft/server/BlockOre
+apk net/minecraft/server/BlockLog1
+	b VARIANT
+apn net/minecraft/server/BlockWood
+	a VARIANT
+apm net/minecraft/server/BlockPackedIce
+app net/minecraft/server/BlockPotatoes
+apo net/minecraft/server/BlockPortal
+	a AXIS
+apr net/minecraft/server/BlockPoweredRail
+	d SHAPE
+	e POWERED
+apq net/minecraft/server/BlockPowered
+apt net/minecraft/server/BlockPrismarine
+	a VARIANT
+aps net/minecraft/server/BlockPressurePlateBinary
+	d POWERED
+apv net/minecraft/server/BlockPurpurSlab
+apu net/minecraft/server/BlockPumpkin
+	a snowGolemPart
+	b snowGolem
+	c ironGolemPart
+	d ironGolem
+	e ()Latp; getDetectorSnowGolemPart
+	g ()Latp; getDetectorSnowGolem
+	h ()Latp; getDetectorIronGolemPart
+	i ()Latp; getDetectorIronGolem
+apx net/minecraft/server/BlockMinecartTrack
+	d SHAPE
+apw net/minecraft/server/BlockQuartz
+	a VARIANT
+apz net/minecraft/server/BlockRedSandstone
+	a TYPE
+apy net/minecraft/server/BlockRedFlowers
+aqa net/minecraft/server/BlockRedstoneOre
+	b (Lajs;Lco;)V interact
+	c (Lajs;Lco;)V playEffect
+aqc net/minecraft/server/BlockRedstoneLamp
+aqb net/minecraft/server/BlockRedstoneWire
+	a NORTH
+	b EAST
+	c SOUTH
+	d WEST
+	e POWER
+	a (Lajs;Lco;I)I getPower
+aoj$a net/minecraft/server/BlockHugeMushroom$EnumHugeMushroomVariant
+	a NORTH_WEST
+	b NORTH
+	c NORTH_EAST
+	d WEST
+	e CENTER
+	f EAST
+	g SOUTH_WEST
+	h SOUTH
+	i SOUTH_EAST
+	j STEM
+	k ALL_INSIDE
+	l ALL_OUTSIDE
+	m ALL_STEM
+aqe net/minecraft/server/BlockReed
+	a AGE
+aqd net/minecraft/server/BlockRedstoneTorch
+	B isOn
+aqg net/minecraft/server/BlockRepeater
+	a LOCKED
+	b DELAY
+aqf net/minecraft/server/EnumRenderType
+	a INVISIBLE
+	b LIQUID
+	c ENTITYBLOCK_ANIMATED
+	d MODEL
+aqi net/minecraft/server/EnumBlockRotation
+	a NONE
+	b CLOCKWISE_90
+	c CLOCKWISE_180
+	d COUNTERCLOCKWISE_90
+aqh net/minecraft/server/BlockRotatable
+	c AXIS
+aqk net/minecraft/server/BlockSandStone
+	a TYPE
+aqj net/minecraft/server/BlockSand
+	a VARIANT
+aqm net/minecraft/server/BlockSeaLantern
+aql net/minecraft/server/BlockSapling
+	a TYPE
+	c STAGE
+	c (Lajs;Lco;Latl;Ljava/util/Random;)V grow
+aqo net/minecraft/server/BlockSign
+aqn net/minecraft/server/BlockShulkerBox
+aqq net/minecraft/server/BlockSlime
+aqp net/minecraft/server/BlockSkull
+	a FACING
+	b NODROP
+aqs net/minecraft/server/BlockSnow
+	a LAYERS
+aqr net/minecraft/server/BlockSnowBlock
+aqu net/minecraft/server/SoundEffectType
+aqt net/minecraft/server/BlockSlowSand
+aqw net/minecraft/server/BlockStainedGlass
+	a COLOR
+aqv net/minecraft/server/BlockSponge
+	a WET
+aqy net/minecraft/server/BlockStairs
+	a FACING
+	b HALF
+	c SHAPE
+aqx net/minecraft/server/BlockStainedGlassPane
+	a COLOR
+aqz net/minecraft/server/BlockFloorSign
+	b ROTATION
+kf$a$a net/minecraft/server/ServerPing$ServerPingPlayerSample$Serializer
+arb net/minecraft/server/BlockStem
+	a AGE
+	c FACING
+	e blockFruit
+ara net/minecraft/server/BlockStationary
+ard net/minecraft/server/BlockSmoothBrick
+	a VARIANT
+arc net/minecraft/server/BlockStone
+	a VARIANT
+arf net/minecraft/server/BlockDoubleStepAbstract
+	d SEAMLESS
+	e VARIANT
+are net/minecraft/server/BlockStoneButton
+arh net/minecraft/server/BlockStructureVoid
+arg net/minecraft/server/BlockStructure
+arj net/minecraft/server/BlockThin
+	b NORTH
+	c EAST
+	d SOUTH
+	e WEST
+ari net/minecraft/server/BlockLongGrass
+	a TYPE
+arl net/minecraft/server/BlockTorch
+	a FACING
+	c (Lajs;Lco;Latl;)V onPlace
+ark net/minecraft/server/BlockTNT
+	a EXPLODE
+arn net/minecraft/server/BlockTripwire
+	a POWERED
+	b ATTACHED
+	c DISARMED
+	d NORTH
+	e EAST
+	f SOUTH
+	g WEST
+arm net/minecraft/server/BlockTrapdoor
+	a FACING
+	b OPEN
+	c HALF
+arp net/minecraft/server/BlockVine
+	a UP
+	b NORTH
+	c EAST
+	d SOUTH
+	e WEST
+	a (Lcv;)Latx; getDirection
+ale$a net/minecraft/server/BiomeTaiga$Type
+	a NORMAL
+	b MEGA
+	c MEGA_SPRUCE
+aro net/minecraft/server/BlockTripwireHook
+	a FACING
+	b POWERED
+	c ATTACHED
+arr net/minecraft/server/BlockWallSign
+	b FACING
+arq net/minecraft/server/BlockCobbleWall
+	a UP
+	b NORTH
+	c EAST
+	d SOUTH
+	e WEST
+	f VARIANT
+art net/minecraft/server/BlockWeb
+ars net/minecraft/server/BlockWaterLily
+arv net/minecraft/server/BlockWoodButton
+aru net/minecraft/server/BlockPressurePlateWeighted
+	d POWER
+	e weight
+arx net/minecraft/server/BlockCarpet
+	a COLOR
+arw net/minecraft/server/BlockWoodenStep
+	d VARIANT
+arz net/minecraft/server/TileEntityBanner
+	f color
+	g patterns
+ary net/minecraft/server/BlockYellowFlowers
+asa net/minecraft/server/EnumBannerPatternType
+	A HALF_VERTICAL
+	B HALF_HORIZONTAL
+	C HALF_VERTICAL_MIRROR
+	D HALF_HORIZONTAL_MIRROR
+	E BORDER
+	F CURLY_BORDER
+	G CREEPER
+	H GRADIENT
+	I GRADIENT_UP
+	J BRICKS
+	K SKULL
+	L FLOWER
+	M MOJANG
+	a BASE
+	b SQUARE_BOTTOM_LEFT
+	c SQUARE_BOTTOM_RIGHT
+	d SQUARE_TOP_LEFT
+	e SQUARE_TOP_RIGHT
+	f STRIPE_BOTTOM
+	g STRIPE_TOP
+	h STRIPE_LEFT
+	i STRIPE_RIGHT
+	j STRIPE_CENTER
+	k STRIPE_MIDDLE
+	l STRIPE_DOWNRIGHT
+	m STRIPE_DOWNLEFT
+	n STRIPE_SMALL
+	o CROSS
+	p STRAIGHT_CROSS
+	q TRIANGLE_BOTTOM
+	r TRIANGLE_TOP
+	s TRIANGLES_BOTTOM
+	t TRIANGLES_TOP
+	u DIAGONAL_LEFT
+	v DIAGONAL_RIGHT
+	w DIAGONAL_LEFT_MIRROR
+	x DIAGONAL_RIGHT_MIRROR
+	y CIRCLE_MIDDLE
+	z RHOMBUS_MIDDLE
+asc net/minecraft/server/TileEntity
+	b world
+	c position
+	B ()V invalidateBlockCache
+	C ()Z isFilteredNBT
+	D ()Lajs; getWorld
+	a (Lco;)V setPosition
+	b (Ldu;)Ldu; save
+	c ()Lfz; getUpdatePacket
+	w ()Lco; getPosition
+	x ()Lalu; getBlock
+	x_ ()V update
+asb net/minecraft/server/TileEntityBeacon
+	k levels
+	l primaryEffect
+	m secondaryEffect
+	n inventorySlot
+ase net/minecraft/server/TileEntityChest
+	p items
+asd net/minecraft/server/TileEntityBrewingStand
+	h items
+	i brewTime
+asg net/minecraft/server/TileEntityComparator
+asf net/minecraft/server/TileEntityCommand
+	a ()Lajh; getCommandBlock
+asi net/minecraft/server/TileEntityDispenser
+	f items
+	a (Lafj;)I addItem
+	h_ ()Ljava/lang/String; getName
+	l ()Ljava/lang/String; getContainerName
+ash net/minecraft/server/TileEntityLightDetector
+ask net/minecraft/server/TileEntityEnchantTable
+asj net/minecraft/server/TileEntityDropper
+asm net/minecraft/server/TileEntityFlowerPot
+	a ()Lafj; getContents
+	a (Lafj;)V setContents
+	e ()Lafh; getItem
+	f ()I getData
+asl net/minecraft/server/TileEntityEnderChest
+aso net/minecraft/server/IHopper
+	D ()Lajs; getWorld
+asn net/minecraft/server/TileEntityFurnace
+	h items
+	i burnTime
+	j ticksForCurrentFuel
+	k cookTime
+	l cookTimeTotal
+	b (Lafj;)I fuelTime
+	c (Lafj;)Z isFuel
+	n ()Z isBurning
+	o ()V burn
+	p ()Z canBurn
+asq net/minecraft/server/TileEntityContainer
+asp net/minecraft/server/TileEntityHopper
+	a items
+	a (Lrc;Lrc;Lafj;Lcv;)Lafj; addItem
+	d (I)V setCooldown
+ass net/minecraft/server/TileEntityNote
+	a note
+	a (Lajs;Lco;)V play
+asr net/minecraft/server/TileEntityMobSpawner
+	a ()Laji; getSpawner
+asu net/minecraft/server/TileEntityShulkerBox
+atd$a net/minecraft/server/BlockPistonExtension$EnumPistonType
+	a DEFAULT
+	b STICKY
+ast net/minecraft/server/TileEntityLootable
+asw net/minecraft/server/TileEntitySkull
+	f rotation
+	a ()Lcom/mojang/authlib/GameProfile; getGameProfile
+	a (I)V setSkullType
+	a (Lcom/mojang/authlib/GameProfile;)V setGameProfile
+	b (I)V setRotation
+	e ()I getSkullType
+asv net/minecraft/server/TileEntitySign
+	a lines
+	g isEditable
+asy net/minecraft/server/TileEntityEndGateway
+	h exitPortal
+	i exactTeleport
+asx net/minecraft/server/TileEntityStructure
+asz net/minecraft/server/TileEntityEnderPortal
+atd net/minecraft/server/BlockPistonExtension
+	a TYPE
+	b SHORT
+atc net/minecraft/server/BlockPiston
+	B sticky
+	a EXTENDED
+atf net/minecraft/server/TileEntityPiston
+ate net/minecraft/server/BlockPistonMoving
+	a FACING
+	b TYPE
+atg net/minecraft/server/PistonExtendsChecker
+	c ()Ljava/util/List; getMovedBlocks
+	d ()Ljava/util/List; getBrokenBlocks
+atj net/minecraft/server/IBlockPhysics
+	a (Lajs;Lco;Lalu;Lco;)V doPhysics
+ati net/minecraft/server/BlockDataAbstract
+atl net/minecraft/server/IBlockData
+	a (Laub;Ljava/lang/Comparable;)Latl; set
+	c (Laub;)Ljava/lang/Comparable; get
+	v ()Lalu; getBlock
+atk net/minecraft/server/IBlockProperties
+	a ()Lazs; getMaterial
+atm net/minecraft/server/BlockStateList
+	b ()Latl; getBlockData
+	c ()Lalu; getBlock
+atp net/minecraft/server/ShapeDetector
+ato net/minecraft/server/ShapeDetectorBlock
+	d ()Lco; getPosition
+atq net/minecraft/server/ShapeDetectorBuilder
+att net/minecraft/server/BlockPredicate
+ats net/minecraft/server/MaterialPredicate
+atu net/minecraft/server/BlockStatePredicate
+atx net/minecraft/server/BlockStateBoolean
+	a (Ljava/lang/String;)Latx; of
+atw net/minecraft/server/BlockState
+atz net/minecraft/server/BlockStateEnum
+	a (Ljava/lang/String;Ljava/lang/Class;)Latz; of
+	a (Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Enum;)Latz; of
+aty net/minecraft/server/BlockStateDirection
+	a (Ljava/lang/String;)Laty; of
+	a (Ljava/lang/String;Lcom/google/common/base/Predicate;)Laty; of
+oo$a net/minecraft/server/IntHashMap$IntHashMapEntry
+gc$a net/minecraft/server/PacketPlayOutBoss$Action
+	a ADD
+	b REMOVE
+	c UPDATE_PCT
+	d UPDATE_NAME
+	e UPDATE_STYLE
+	f UPDATE_PROPERTIES
+aua net/minecraft/server/BlockStateInteger
+	a (Ljava/lang/String;II)Laua; of
+aub net/minecraft/server/IBlockState
+aue net/minecraft/server/EnumWorldBorderState
+	a GROWING
+	b SHRINKING
+	c STATIONARY
+aby$a net/minecraft/server/EntityMinecartAbstract$EnumMinecartType
+	a RIDEABLE
+	b CHEST
+	c FURNACE
+	d TNT
+	e SPAWNER
+	f HOPPER
+	g COMMAND_BLOCK
+aud net/minecraft/server/IWorldBorderListener
+akf$c net/minecraft/server/BiomeBase$BiomeMeta
+auf net/minecraft/server/WorldBorder
+	a ()Laue; getState
+	a (D)V setSize
+	a (DDJ)V transitionSizeBetween
+	a (Lajl;)Z isInBounds
+	b (D)V setDamageBuffer
+	b (I)V setWarningTime
+	c (D)V setDamageAmount
+	c (DD)V setCenter
+	c (I)V setWarningDistance
+	f ()D getCenterX
+	g ()D getCenterZ
+	h ()D getSize
+	m ()D getDamageBuffer
+	n ()D getDamageAmount
+	p ()I getWarningTime
+	q ()I getWarningDistance
+akf$b net/minecraft/server/BiomeBase$EnumTemperature
+	a OCEAN
+	b COLD
+	c MEDIUM
+	d WARM
+aui net/minecraft/server/ChunkGenerator
+	a (II)Lauo; getOrCreateChunk
+	a (Lajs;Ljava/lang/String;Lco;Z)Lco; findNearestMapFeature
+	a (Lsy;Lco;)Ljava/util/List; getMobsFor
+	b (II)V recreateStructures
+	b (Lauo;II)V recreateStructures
+auh net/minecraft/server/DataPaletteBlock
+	a (IIILatl;)V setBlock
+	a ([BLauk;)Lauk; exportData
+	b (ILatl;)V setBlockIndex
+auk net/minecraft/server/NibbleArray
+	a ()[B asBytes
+auj net/minecraft/server/IChunkProvider
+	a (II)Lauo; getLoadedChunkAt
+	c (II)Lauo; getChunkAt
+	d ()Z unloadChunks
+	f ()Ljava/lang/String; getName
+aum net/minecraft/server/DataPaletteGlobal
+auo net/minecraft/server/Chunk
+	b locX
+	c locZ
+	f sections
+	k world
+	l heightMap
+	n tileEntities
+	o entitySlices
+	p done
+	q lit
+	u lastSaved
+	a (Lajy;Lco;)I getBrightness
+	a (Lauj;Laui;)V loadNearby
+	a (Lco;)Latl; getBlockData
+	a (Lco;Lakj;)Lakf; getBiome
+	b ()V initLighting
+	b (J)V setLastSaved
+	c ()V addEntities
+	d ()V removeEntities
+	f ()Z isEmpty
+	h ()[Laup; getSections
+	i ()Z isReady
+	l ()[B getBiomeIndex
+	q ()Lajs; getWorld
+	s ()Ljava/util/Map; getTileEntities
+	t ()[Lof; getEntitySlices
+	u ()Z isDone
+ayk$e net/minecraft/server/WorldGenRegistration$WorldGenWitchHut
+aun net/minecraft/server/DataPaletteHash
+ayk$d net/minecraft/server/WorldGenRegistration$WorldGenScatteredPiece
+auq net/minecraft/server/DataPaletteLinear
+ayk$c net/minecraft/server/WorldGenRegistration$WorldGenJungleTemple
+aup net/minecraft/server/ChunkSection
+	a yPos
+	b nonEmptyBlockCount
+	c tickingBlockCount
+	d blockIds
+	e emittedLight
+	f skyLight
+	a (III)Latl; getType
+	a (IIILatl;)V setType
+	b ()Z shouldTick
+	d ()I getYPosition
+	e ()V recalcBlockCounts
+	g ()Lauh; getBlocks
+	h ()Lauk; getEmittedLightArray
+	i ()Lauk; getSkyLightArray
+aus net/minecraft/server/DataPalette
+ayk$a net/minecraft/server/WorldGenRegistration$WorldGenPyramidPiece
+aur net/minecraft/server/OldNibbleArray
+amy$a net/minecraft/server/BlockTallPlant$EnumTallPlantHalf
+	a UPPER
+	b LOWER
+aut net/minecraft/server/DataPaletteExpandable
+amy$b net/minecraft/server/BlockTallPlant$EnumTallFlowerVariants
+	a SUNFLOWER
+	b SYRINGA
+	c GRASS
+	d FERN
+	e ROSE
+	f PAEONIA
+auw net/minecraft/server/IChunkLoader
+avb net/minecraft/server/RegionFile
+ava net/minecraft/server/OldChunkLoader
+avd net/minecraft/server/ChunkRegionLoader
+avc net/minecraft/server/RegionFileCache
+avf net/minecraft/server/WorldProvider
+	h type
+	a (II)Z canSpawn
+	c ()Laui; getChunkGenerator
+	i ()I getSeaLevel
+	p ()Lauf; getWorldBorder
+	q ()Lavg; getDimensionManager
+avh net/minecraft/server/WorldProviderHell
+avg net/minecraft/server/DimensionManager
+	a OVERWORLD
+	b NETHER
+	c THE_END
+	a ()I getDimensionID
+avj net/minecraft/server/EnumDragonRespawn
+	a START
+	b PREPARING_TO_SUMMON_PILLARS
+	c SUMMONING_PILLARS
+	d SUMMONING_DRAGON
+	e END
+avi net/minecraft/server/WorldProviderNormal
+avl net/minecraft/server/WorldProviderTheEnd
+avk net/minecraft/server/EnderDragonBattle
+avp net/minecraft/server/ChunkSnapshot
+avo net/minecraft/server/WorldGenCanyon
+avr net/minecraft/server/ChunkProviderDebug
+avq net/minecraft/server/CustomWorldSettingsFinal
+avt net/minecraft/server/WorldGenCaves
+avs net/minecraft/server/ChunkProviderFlat
+avv net/minecraft/server/WorldGenCavesHell
+avu net/minecraft/server/WorldGenBase
+avx net/minecraft/server/ChunkProviderGenerate
+avw net/minecraft/server/ChunkProviderHell
+avz net/minecraft/server/WorldGenTreeAbstract
+avy net/minecraft/server/ChunkProviderTheEnd
+ie$a net/minecraft/server/PacketPlayOutTitle$EnumTitleAction
+	a TITLE
+	b SUBTITLE
+	c ACTIONBAR
+	d TIMES
+	e CLEAR
+	f RESET
+awa net/minecraft/server/WorldGenBigTree
+awc net/minecraft/server/WorldGenTaigaStructure
+awb net/minecraft/server/WorldGenForest
+awe net/minecraft/server/WorldGenMushrooms
+awd net/minecraft/server/WorldGenBonusChest
+awg net/minecraft/server/WorldGenClay
+awf net/minecraft/server/WorldGenCactus
+awi net/minecraft/server/WorldGenDesertWell
+awh net/minecraft/server/WorldGenDeadBush
+awk net/minecraft/server/WorldGenEndGateway
+awj net/minecraft/server/WorldGenTallPlant
+awm net/minecraft/server/WorldGenEndTrophy
+awl net/minecraft/server/WorldGenEndIsland
+awo net/minecraft/server/WorldGenFlowers
+awn net/minecraft/server/WorldGenerator
+	b (Lajs;Ljava/util/Random;Lco;)Z generate
+awq net/minecraft/server/WorldGenGroundBush
+awp net/minecraft/server/WorldGenFossils
+aws net/minecraft/server/WorldGenLightStone2
+awr net/minecraft/server/WorldGenFire
+awu net/minecraft/server/WorldGenHugeMushroom
+awt net/minecraft/server/WorldGenHellLava
+aww net/minecraft/server/WorldGenPackedIce2
+awv net/minecraft/server/WorldGenPackedIce1
+awy net/minecraft/server/WorldGenLightStone1
+awx net/minecraft/server/WorldGenLakes
+awz net/minecraft/server/WorldGenJungleTree
+hb$a net/minecraft/server/PacketPlayOutEntity$PacketPlayOutRelEntityMove
+hb$b net/minecraft/server/PacketPlayOutEntity$PacketPlayOutRelEntityMoveLook
+hb$c net/minecraft/server/PacketPlayOutEntity$PacketPlayOutEntityLook
+axb net/minecraft/server/WorldGenMegaTreeAbstract
+axa net/minecraft/server/WorldGenMegaTree
+axd net/minecraft/server/WorldGenDungeons
+axc net/minecraft/server/WorldGenMelon
+axf net/minecraft/server/WorldGenTaiga1
+axe net/minecraft/server/WorldGenMinable
+axh net/minecraft/server/WorldGenReed
+axg net/minecraft/server/WorldGenPumpkin
+axj net/minecraft/server/WorldGenSand
+axi net/minecraft/server/WorldGenForestTree
+axl net/minecraft/server/WorldGenEnder
+axk net/minecraft/server/WorldGenAcaciaTree
+axn net/minecraft/server/WorldGenTaiga2
+axm net/minecraft/server/WorldGenLiquids
+axp net/minecraft/server/WorldGenGrass
+axo net/minecraft/server/WorldGenSwampTree
+axr net/minecraft/server/WorldGenVines
+axq net/minecraft/server/WorldGenTrees
+	b (Lajs;Ljava/util/Random;Lco;)Z generate
+axs net/minecraft/server/WorldGenWaterLily
+axl$a net/minecraft/server/WorldGenEnder$Spike
+axv net/minecraft/server/WorldGenFlatLayerInfo
+axu net/minecraft/server/WorldGenFlatInfo
+	a layers
+	b structures
+axz net/minecraft/server/StructureBoundingBox
+ss$a net/minecraft/server/EnumItemSlot$Function
+	a HAND
+	b ARMOR
+aya net/minecraft/server/WorldGenEndCity
+ayc net/minecraft/server/WorldGenMineshaft
+ayb net/minecraft/server/WorldGenEndCityPieces
+aye net/minecraft/server/WorldGenMineshaftStart
+ayd net/minecraft/server/WorldGenMineshaftPieces
+ayg net/minecraft/server/WorldGenNetherPieces
+ayf net/minecraft/server/WorldGenNether
+ayi net/minecraft/server/WorldGenMonumentPieces
+ayh net/minecraft/server/WorldGenMonument
+ayk net/minecraft/server/WorldGenRegistration
+ayj net/minecraft/server/WorldGenLargeFeature
+aym net/minecraft/server/WorldGenStrongholdPieces
+ayl net/minecraft/server/WorldGenStronghold
+ayo net/minecraft/server/WorldGenFactory
+ayn net/minecraft/server/StructureGenerator
+	a (Lajs;Lco;Z)Lco; getNearestGeneratedFeature
+ayq net/minecraft/server/StructurePiece
+ayp net/minecraft/server/PersistentStructure
+ays net/minecraft/server/DefinedStructurePiece
+ayr net/minecraft/server/StructureStart
+ayu net/minecraft/server/WorldGenVillagePieces
+ayt net/minecraft/server/WorldGenVillage
+ayw net/minecraft/server/WorldGenWoodlandMansionPieces
+ayv net/minecraft/server/WorldGenWoodlandMansion
+ayy net/minecraft/server/DefinedStructureProcessorRotation
+aiu$a net/minecraft/server/EnchantmentProtection$DamageType
+	a ALL
+	b FIRE
+	c FALL
+	d EXPLOSION
+	e PROJECTILE
+aai$a net/minecraft/server/EntitySpider$PathfinderGoalSpiderMeleeAttack
+ayz net/minecraft/server/DefinedStructureManager
+aai$b net/minecraft/server/EntitySpider$GroupDataSpider
+jd$a net/minecraft/server/PacketPlayInBlockDig$EnumPlayerDigType
+	a START_DESTROY_BLOCK
+	b ABORT_DESTROY_BLOCK
+	c STOP_DESTROY_BLOCK
+	d DROP_ALL_ITEMS
+	e DROP_ITEM
+	f RELEASE_USE_ITEM
+	g SWAP_HELD_ITEMS
+azb net/minecraft/server/DefinedStructureProcessor
+aza net/minecraft/server/DefinedStructureInfo
+azc net/minecraft/server/DefinedStructure
+aai$c net/minecraft/server/EntitySpider$PathfinderGoalSpiderNearestAttackableTarget
+azh net/minecraft/server/NoiseGeneratorPerlin
+azj net/minecraft/server/NoiseGenerator3
+azi net/minecraft/server/NoiseGeneratorOctaves
+azn net/minecraft/server/NoiseGenerator
+azm net/minecraft/server/NoiseGenerator3Handler
+azp net/minecraft/server/MaterialDecoration
+azr net/minecraft/server/MaterialLiquid
+azq net/minecraft/server/MaterialGas
+azt net/minecraft/server/MaterialMapColor
+azs net/minecraft/server/Material
+	A CACTUS
+	B CLAY
+	C PUMPKIN
+	D DRAGON_EGG
+	E PORTAL
+	F CAKE
+	G WEB
+	H PISTON
+	I BANNER
+	K canBurn
+	a AIR
+	b GRASS
+	c EARTH
+	d WOOD
+	e STONE
+	f ORE
+	g HEAVY
+	h WATER
+	i LAVA
+	j LEAVES
+	k PLANT
+	l REPLACEABLE_PLANT
+	m SPONGE
+	n CLOTH
+	o FIRE
+	p SAND
+	q ORIENTABLE
+	r WOOL
+	s SHATTERABLE
+	t BUILDABLE_GLASS
+	u TNT
+	v CORAL
+	w ICE
+	x SNOW_LAYER
+	y PACKED_ICE
+	z SNOW_BLOCK
+	a ()Z isBuildable
+	b ()Z blocksLight
+	c ()Z isSolid
+	d ()Z isLiquid
+	h ()Z isBurnable
+	j ()Z isReplaceable
+	l ()Z isAlwaysDestroyable
+	m ()Lazv; getPushReaction
+azv net/minecraft/server/EnumPistonReaction
+	a NORMAL
+	b DESTROY
+	c BLOCK
+	d IGNORE
+azu net/minecraft/server/MaterialPortal
+azx net/minecraft/server/GenLayerDeepOcean
+azz net/minecraft/server/GenLayerIsland
+azy net/minecraft/server/GenLayerSpecial
+aco$c net/minecraft/server/ContainerBrewingStand$SlotPotionBottle
+aco$b net/minecraft/server/ContainerBrewingStand$SlotBrewing
+ano$a net/minecraft/server/BlockFlowers$EnumFlowerVarient
+	a DANDELION
+	b POPPY
+	c BLUE_ORCHID
+	d ALLIUM
+	e HOUSTONIA
+	f RED_TULIP
+	g ORANGE_TULIP
+	h WHITE_TULIP
+	i PINK_TULIP
+	j OXEYE_DAISY
+ano$b net/minecraft/server/BlockFlowers$EnumFlowerType
+	a YELLOW
+	b RED
+lw$a net/minecraft/server/WorldServer$BlockActionDataList
+bab net/minecraft/server/GenLayerTopSoil
+baa net/minecraft/server/GenLayerMushroomIsland
+bad net/minecraft/server/GenLayerBiome
+bac net/minecraft/server/GenLayerDesert
+baf net/minecraft/server/GenLayerZoomFuzzy
+bah net/minecraft/server/IntCache
+baj net/minecraft/server/GenLayer
+bai net/minecraft/server/LayerIsland
+bal net/minecraft/server/GenLayerRegionHills
+bak net/minecraft/server/GenLayerPlains
+ban net/minecraft/server/GenLayerCleaner
+bam net/minecraft/server/GenLayerIcePlains
+bap net/minecraft/server/GenLayerRiverMix
+bao net/minecraft/server/GenLayerRiver
+bar net/minecraft/server/GenLayerSmooth
+baq net/minecraft/server/GenLayerMushroomShore
+bav net/minecraft/server/GenLayerZoomVoronoi
+baw net/minecraft/server/GenLayerZoom
+baz net/minecraft/server/Path
+bba net/minecraft/server/PathType
+	a BLOCKED
+	b OPEN
+	c WALKABLE
+	d TRAPDOOR
+	e FENCE
+	f LAVA
+	g WATER
+	h RAIL
+	i DANGER_FIRE
+	j DAMAGE_FIRE
+	k DANGER_CACTUS
+	l DAMAGE_CACTUS
+	m DANGER_OTHER
+	n DAMAGE_OTHER
+	o DOOR_OPEN
+	p DOOR_WOOD_CLOSED
+	q DOOR_IRON_CLOSED
+aa net/minecraft/server/CommandEffect
+ab net/minecraft/server/CommandMe
+bbc net/minecraft/server/PathfinderAbstract
+ac net/minecraft/server/CommandEnchant
+bbb net/minecraft/server/PathPoint
+ad net/minecraft/server/CommandEntityData
+bbe net/minecraft/server/Pathfinder
+ae net/minecraft/server/CommandExecute
+bbd net/minecraft/server/PathEntity
+af net/minecraft/server/CommandXp
+bbg net/minecraft/server/PathfinderNormal
+ag net/minecraft/server/CommandFill
+bbf net/minecraft/server/PathfinderWater
+ah net/minecraft/server/CommandDifficulty
+ai net/minecraft/server/CommandGamemode
+	b (Ln;)Ljava/lang/String; getUsage
+	c ()Ljava/lang/String; getCommand
+aya$a net/minecraft/server/WorldGenEndCity$Start
+apt$a net/minecraft/server/BlockPrismarine$EnumPrismarineVariant
+	a ROUGH
+	b BRICKS
+	c DARK
+aj net/minecraft/server/CommandGamerule
+bbk net/minecraft/server/RunnableSaveScoreboard
+ak net/minecraft/server/CommandGive
+al net/minecraft/server/CommandHelp
+bbm net/minecraft/server/MapIcon
+	a type
+	b x
+	c y
+	d rotation
+	a ()B getType
+	c ()B getX
+	d ()B getY
+	e ()B getRotation
+am net/minecraft/server/CommandKick
+bbl net/minecraft/server/PersistentBase
+	a id
+an net/minecraft/server/CommandKill
+ao net/minecraft/server/CommandList
+bbn net/minecraft/server/WorldMap
+	b centerX
+	c centerZ
+	d map
+	e track
+	f unlimitedTracking
+	g scale
+	h colors
+	j decorations
+	a (II)V flagDirty
+ap net/minecraft/server/CommandLocate
+bbq net/minecraft/server/ServerNBTManager
+aq net/minecraft/server/CommandTell
+ar net/minecraft/server/CommandOp
+bbs net/minecraft/server/SecondaryWorldData
+as net/minecraft/server/CommandPardonIP
+bbr net/minecraft/server/WorldLoaderServer
+at net/minecraft/server/CommandPardon
+ho$a net/minecraft/server/PacketPlayOutWorldBorder$EnumWorldBorderAction
+	a SET_SIZE
+	b LERP_SIZE
+	c SET_CENTER
+	d INITIALIZE
+	e SET_WARNING_TIME
+	f SET_WARNING_BLOCKS
+bbu net/minecraft/server/WorldLoader
+au net/minecraft/server/CommandParticle
+bbt net/minecraft/server/WorldNBTStorage
+	c baseDir
+	d playerDir
+	e dataDir
+	f sessionId
+av net/minecraft/server/CommandPlaySound
+bbw net/minecraft/server/IDataManager
+	a (Lavf;)Lauw; createChunkLoader
+	a (Lbbv;)V saveWorldData
+	a (Lbbv;Ldu;)V saveWorldData
+	a (Ljava/lang/String;)Ljava/io/File; getDataFile
+	b ()Ljava/io/File; getDirectory
+	c ()V checkSession
+	d ()Lbbv; getWorldData
+	e ()Lbcc; getPlayerFileData
+aw net/minecraft/server/CommandPublish
+bbv net/minecraft/server/WorldData
+	q levelName
+	A ()Ljava/lang/String; getGeneratorOptions
+	a ()J getSeed
+	a (Lajq;)V setGameType
+	a (Lco;)V setSpawn
+	a (Lrg;)V setDifficulty
+	a (Z)V setThundering
+	b (J)V setTime
+	b (Z)V setStorm
+	c (J)V setDayTime
+	e ()J getTime
+	f ()J getDayTime
+	f (I)V setThunderDuration
+	g (I)V setWeatherDuration
+	j ()Ljava/lang/String; getName
+	m ()Z isThundering
+	n ()I getThunderDuration
+	o ()Z hasStorm
+	p ()I getWeatherDuration
+	q ()Lajq; getGameType
+	r ()Z shouldGenerateMapFeatures
+	s ()Z isHardcore
+	t ()Lajx; getType
+	x ()Lrg; getDifficulty
+	y ()Z isDifficultyLocked
+ax net/minecraft/server/CommandReplaceItem
+bby net/minecraft/server/Convertable
+	a (Ljava/lang/String;Lov;)Z convert
+	b (Ljava/lang/String;)Z isConvertable
+ay net/minecraft/server/CommandSaveAll
+bbm$a net/minecraft/server/MapIcon$Type
+	a PLAYER
+	b FRAME
+	c RED_MARKER
+	d BLUE_MARKER
+	e TARGET_X
+	f TARGET_POINT
+	g PLAYER_OFF_MAP
+	h PLAYER_OFF_LIMITS
+	i MANSION
+	j MONUMENT
+az net/minecraft/server/CommandSaveOff
+ba net/minecraft/server/CommandSaveOn
+bb net/minecraft/server/CommandSay
+bc net/minecraft/server/CommandScoreboard
+zx$a net/minecraft/server/EntityGuardian$PathfinderGoalGuardianAttack
+bd net/minecraft/server/CommandDispatcher
+be net/minecraft/server/CommandSetBlock
+bcc net/minecraft/server/IPlayerFileData
+	a (Laay;)V save
+	b (Laay;)Ldu; load
+	f ()[Ljava/lang/String; getSeenPlayers
+zx$c net/minecraft/server/EntityGuardian$ControllerMoveGuardian
+bf net/minecraft/server/CommandIdleTimeout
+bcf net/minecraft/server/LootTables
+zx$b net/minecraft/server/EntityGuardian$EntitySelectorGuardianTargetHumanSquid
+bg net/minecraft/server/CommandSpawnpoint
+bce net/minecraft/server/PersistentCollection
+	a (Ljava/lang/Class;Ljava/lang/String;)Lbbl; get
+bh net/minecraft/server/CommandSetWorldSpawn
+bch net/minecraft/server/LootItem
+bi net/minecraft/server/CommandSeed
+bcg net/minecraft/server/LootSelectorEmpty
+xe$g net/minecraft/server/EntityRabbit$PathfinderGoalEatCarrots
+bj net/minecraft/server/CommandSpreadPlayers
+bcj net/minecraft/server/LotoSelectorEntry
+bk net/minecraft/server/CommandStats
+bci net/minecraft/server/LootSelector
+bl net/minecraft/server/CommandStop
+bcl net/minecraft/server/LootTableInfo
+amo$a net/minecraft/server/BlockWorkbench$TileEntityContainerWorkbench
+bm net/minecraft/server/CommandStopSound
+bck net/minecraft/server/LootTable
+bn net/minecraft/server/CommandSummon
+bcn net/minecraft/server/LootTableRegistry
+bo net/minecraft/server/CommandTeleport
+bcm net/minecraft/server/LootSelectorLootTable
+bp net/minecraft/server/CommandTellRaw
+bcp net/minecraft/server/LootItemFunctionEnchant
+bco net/minecraft/server/LootValueBounds
+br net/minecraft/server/CommandTestForBlock
+bcr net/minecraft/server/LootItemFunction
+bs net/minecraft/server/CommandTestForBlocks
+bcq net/minecraft/server/LootEnchantLevel
+xe$a net/minecraft/server/EntityRabbit$PathfinderGoalKillerRabbitMeleeAttack
+bt net/minecraft/server/CommandTestFor
+bct net/minecraft/server/LootEnchantFunction
+xe$b net/minecraft/server/EntityRabbit$PathfinderGoalRabbitAvoidTarget
+bu net/minecraft/server/CommandTime
+bcs net/minecraft/server/LootItemFunctions
+xe$c net/minecraft/server/EntityRabbit$GroupDataRabbit
+bv net/minecraft/server/CommandTitle
+bcv net/minecraft/server/LootItemFunctionSetCount
+xe$d net/minecraft/server/EntityRabbit$ControllerJumpRabbit
+bw net/minecraft/server/CommandToggleDownfall
+bcu net/minecraft/server/LootItemFunctionSetAttribute
+xe$e net/minecraft/server/EntityRabbit$ControllerMoveRabbit
+bx net/minecraft/server/CommandTp
+bcx net/minecraft/server/LootItemFunctionSetData
+xe$f net/minecraft/server/EntityRabbit$PathfinderGoalRabbitPanic
+by net/minecraft/server/CommandTrigger
+bcw net/minecraft/server/LootItemFunctionSetDamage
+bz net/minecraft/server/CommandWeather
+bcz net/minecraft/server/LootItemFunctionSmelt
+bcy net/minecraft/server/LootItemFunctionSetTag
+ca net/minecraft/server/CommandWhitelist
+cb net/minecraft/server/CommandWorldBorder
+bdc net/minecraft/server/LootItemConditionEntityScore
+cd net/minecraft/server/CommandException
+	a ()[Ljava/lang/Object; getArgs
+ce net/minecraft/server/ExceptionEntityNotFound
+bde net/minecraft/server/LootItemConditions
+cf net/minecraft/server/ExceptionInvalidBlockState
+bdd net/minecraft/server/LootItemCondition
+cg net/minecraft/server/ExceptionInvalidNumber
+bdg net/minecraft/server/LootItemConditionKilledByPlayer
+ch net/minecraft/server/ExceptionInvalidSyntax
+bdf net/minecraft/server/LootItemConditionEntityProperty
+ci net/minecraft/server/ExceptionPlayerNotFound
+bdi net/minecraft/server/LootItemConditionRandomChanceWithLooting
+cj net/minecraft/server/ExceptionUnknownCommand
+bdh net/minecraft/server/LootItemConditionRandomChance
+ck net/minecraft/server/ExceptionUsage
+bdk net/minecraft/server/LootEntityProperties
+bdm net/minecraft/server/LootEntityPropertyOnFire
+bdl net/minecraft/server/LootEntityProperty
+co net/minecraft/server/BlockPosition
+	a ZERO
+	a ()Lco; up
+	a (J)Lco; fromLong
+	a (Lcv;)Lco; shift
+	a (Lcv;I)Lco; shift
+	b ()Lco; down
+	b (I)Lco; up
+	c ()Lco; north
+	c (I)Lco; down
+	d ()Lco; south
+	d (I)Lco; north
+	e ()Lco; west
+	e (I)Lco; south
+	f ()Lco; east
+	f (I)Lco; west
+	g ()J asLong
+	g (I)Lco; east
+cp net/minecraft/server/ISourceBlock
+	d ()Lco; getBlockPosition
+	g ()Lasc; getTileEntity
+cq net/minecraft/server/SourceBlock
+bdq net/minecraft/server/IAsyncChunkSaver
+cr net/minecraft/server/IteratorUtils
+bdp net/minecraft/server/FileIOThread
+cs net/minecraft/server/DispenseBehaviorItem
+ct net/minecraft/server/RegistryBlocks
+cu net/minecraft/server/RegistryDefault
+bdu net/minecraft/server/MovingObjectPosition
+	a type
+	b direction
+	c pos
+	d entity
+cv net/minecraft/server/EnumDirection
+	a DOWN
+	b UP
+	c NORTH
+	d SOUTH
+	e WEST
+	f EAST
+	a (D)Lcv; fromAngle
+	a (I)Lcv; fromType1
+	b ()I get2DRotationValue
+	b (I)Lcv; fromType2
+	d ()Lcv; opposite
+	g ()I getAdjacentX
+	h ()I getAdjacentY
+	i ()I getAdjacentZ
+bdt net/minecraft/server/AxisAlignedBB
+	c (DDD)Lbdt; grow
+	h (D)Lbdt; shrink
+cw net/minecraft/server/IDispenseBehavior
+	a NONE
+bdw net/minecraft/server/Vec3D
+	b x
+	c y
+	d z
+	b (DDD)Lbdw; add
+	g (Lbdw;)D distanceSquared
+cx net/minecraft/server/Registry
+cy net/minecraft/server/RegistryBlockID
+	a (I)Ljava/lang/Object; fromId
+	a (Ljava/lang/Object;)I getId
+bdy net/minecraft/server/ScoreboardObjective
+	a (Ljava/lang/String;)V setDisplayName
+	b ()Ljava/lang/String; getName
+	c ()Lbei; getCriteria
+	d ()Ljava/lang/String; getDisplayName
+cz net/minecraft/server/ILocationSource
+bdz net/minecraft/server/ScoreboardTeam
+	a (Lbee$a;)V setCollisionRule
+	a (Lbee$b;)V setNameTagVisibility
+	a (Lbee;Ljava/lang/String;)Ljava/lang/String; getPlayerDisplayName
+	a (Ljava/lang/String;)V setDisplayName
+	a (Z)V setAllowFriendlyFire
+	b (Lbee$b;)V setDeathMessageVisibility
+	b (Ljava/lang/String;)V setPrefix
+	b (Z)V setCanSeeFriendlyInvisibles
+	c ()Ljava/lang/String; getDisplayName
+	c (Ljava/lang/String;)V setSuffix
+	e ()Ljava/lang/String; getPrefix
+	f ()Ljava/lang/String; getSuffix
+	h ()Z canSeeFriendlyInvisibles
+	i ()Lbee$b; getNameTagVisibility
+	l ()I packOptionData
+da net/minecraft/server/ISource
+	h ()Lajs; getWorld
+db net/minecraft/server/MapGeneratorUtils
+dc net/minecraft/server/RegistryMaterials
+	a (I)Ljava/lang/Object; getId
+	c (Ljava/lang/Object;)Ljava/lang/Object; get
+bea net/minecraft/server/ScoreboardScore
+	d playerName
+	e score
+	a ()V incrementScore
+	a (I)V addScore
+	b (I)V removeScore
+	c ()I getScore
+	c (I)V setScore
+	d ()Lbdy; getObjective
+	e ()Ljava/lang/String; getPlayerName
+dd net/minecraft/server/NonNullList
+bed net/minecraft/server/PersistentScoreboard
+de net/minecraft/server/EnumParticle
+	A FLAME
+	B LAVA
+	C FOOTSTEP
+	D CLOUD
+	E REDSTONE
+	F SNOWBALL
+	G SNOW_SHOVEL
+	H SLIME
+	I HEART
+	J BARRIER
+	K ITEM_CRACK
+	L BLOCK_CRACK
+	M BLOCK_DUST
+	N WATER_DROP
+	O ITEM_TAKE
+	P MOB_APPEARANCE
+	Q DRAGON_BREATH
+	R END_ROD
+	S DAMAGE_INDICATOR
+	T SWEEP_ATTACK
+	U FALLING_DUST
+	V TOTEM
+	W SPIT
+	a EXPLOSION_NORMAL
+	b EXPLOSION_LARGE
+	c EXPLOSION_HUGE
+	d FIREWORKS_SPARK
+	e WATER_BUBBLE
+	f WATER_SPLASH
+	g WATER_WAKE
+	h SUSPENDED
+	i SUSPENDED_DEPTH
+	j CRIT
+	k CRIT_MAGIC
+	l SMOKE_NORMAL
+	m SMOKE_LARGE
+	n SPELL
+	o SPELL_INSTANT
+	p SPELL_MOB
+	q SPELL_MOB_AMBIENT
+	r SPELL_WITCH
+	s DRIP_WATER
+	t DRIP_LAVA
+	u VILLAGER_ANGRY
+	v VILLAGER_HAPPY
+	w TOWN_AURA
+	x NOTE
+	y PORTAL
+	z ENCHANTMENT_TABLE
+bec net/minecraft/server/Scoreboard
+	a objectivesByName
+	b objectivesByCriteria
+	c playerScores
+	d displaySlots
+	e teamsByName
+	f teamsByPlayer
+	a (I)Lbdy; getObjectiveForSlot
+	a (ILbdy;)V setDisplaySlot
+	a (Lbdy;)V handleObjectiveAdded
+	a (Lbdz;)V handleTeamAdded
+	a (Lbea;)V handleScoreChanged
+	a (Lbei;)Ljava/util/Collection; getObjectivesForCriteria
+	a (Ljava/lang/String;)V handlePlayerRemoved
+	a (Ljava/lang/String;Lbdz;)V removePlayerFromTeam
+	a (Ljava/lang/String;Lbei;)Lbdy; registerObjective
+	a (Ljava/lang/String;Ljava/lang/String;)Z addPlayerToTeam
+	b (I)Ljava/lang/String; getSlotName
+	b (Lbdy;)V handleObjectiveChanged
+	b (Lbdz;)V handleTeamChanged
+	b (Ljava/lang/String;)Lbdy; getObjective
+	c ()Ljava/util/Collection; getObjectives
+	c (Lbdy;)V handleObjectiveRemoved
+	c (Lbdz;)V handleTeamRemoved
+	c (Ljava/lang/String;)Ljava/util/Map; getPlayerObjectives
+	c (Ljava/lang/String;Lbdy;)Lbea; getPlayerScoreForObjective
+	d ()Ljava/util/Collection; getPlayers
+	d (Lbdz;)V removeTeam
+	d (Ljava/lang/String;)Lbdz; getTeam
+	d (Ljava/lang/String;Lbdy;)V resetPlayerScores
+	e ()Ljava/util/Collection; getScores
+	e (Ljava/lang/String;)Lbdz; createTeam
+	f ()Ljava/util/Collection; getTeamNames
+	f (Ljava/lang/String;)Z removePlayerFromTeam
+	g ()Ljava/util/Collection; getTeams
+	g (Ljava/lang/String;)Lbdz; getPlayerTeam
+	h (Ljava/lang/String;)I getSlotForName
+	i (Lbdy;)Ljava/util/Collection; getScoresForObjective
+	k (Lbdy;)V unregisterObjective
+df net/minecraft/server/IPosition
+	a ()D getX
+	b ()D getY
+	c ()D getZ
+bef net/minecraft/server/ScoreboardCriteriaInteger
+dg net/minecraft/server/Position
+bee net/minecraft/server/ScoreboardTeamBase
+	a (Lbee;)Z isAlly
+	b ()Ljava/lang/String; getName
+	d ()Ljava/util/Collection; getPlayerNameSet
+	d (Ljava/lang/String;)Ljava/lang/String; getFormattedName
+	g ()Z allowFriendlyFire
+	j ()Lbee$b; getDeathMessageVisibility
+	k ()Lbee$a; getCollisionRule
+dh net/minecraft/server/IRegistry
+beh net/minecraft/server/ScoreboardHealthCriteria
+di net/minecraft/server/Vector3f
+	a x
+	b y
+	c z
+	b ()F getX
+	c ()F getY
+	d ()F getZ
+beg net/minecraft/server/ScoreboardBaseCriteria
+	b ()Z isReadOnly
+dj net/minecraft/server/RegistrySimple
+	c ()Ljava/util/Set; keySet
+	c (Ljava/lang/Object;)Ljava/lang/Object; get
+bej net/minecraft/server/ScoreboardReadOnlyCriteria
+bei net/minecraft/server/IScoreboardCriteria
+	a criteria
+	a ()Ljava/lang/String; getName
+	b ()Z isReadOnly
+dl net/minecraft/server/BaseBlockPosition
+	e ZERO
+	f (DDD)D distanceSquared
+	p ()I getX
+	q ()I getY
+	r ()I getZ
+bek net/minecraft/server/ScoreboardStatisticCriteria
+dp net/minecraft/server/LocaleI18n
+	a (Ljava/lang/String;)Ljava/lang/String; get
+dq net/minecraft/server/LocaleLanguage
+ds net/minecraft/server/NBTTagByteArray
+	b data
+dt net/minecraft/server/NBTTagByte
+	b data
+du net/minecraft/server/NBTTagCompound
+	c map
+	a (Ljava/lang/String;B)V setByte
+	a (Ljava/lang/String;D)V setDouble
+	a (Ljava/lang/String;F)V setFloat
+	a (Ljava/lang/String;I)V setInt
+	a (Ljava/lang/String;J)V setLong
+	a (Ljava/lang/String;Lei;)V set
+	a (Ljava/lang/String;Ljava/lang/String;)V setString
+	a (Ljava/lang/String;S)V setShort
+	a (Ljava/lang/String;Z)V setBoolean
+	a (Ljava/lang/String;[B)V setByteArray
+	a (Ljava/lang/String;[I)V setIntArray
+	b (Ljava/lang/String;I)Z hasKeyOfType
+	c (Ljava/lang/String;)Lei; get
+	c (Ljava/lang/String;I)Lea; getList
+	e (Ljava/lang/String;)Z hasKey
+	f (Ljava/lang/String;)B getByte
+	g (Ljava/lang/String;)S getShort
+	h (Ljava/lang/String;)I getInt
+	i (Ljava/lang/String;)J getLong
+	j (Ljava/lang/String;)F getFloat
+	k (Ljava/lang/String;)D getDouble
+	l (Ljava/lang/String;)Ljava/lang/String; getString
+	m (Ljava/lang/String;)[B getByteArray
+	n (Ljava/lang/String;)[I getIntArray
+	o (Ljava/lang/String;)Ldu; getCompound
+	p (Ljava/lang/String;)Z getBoolean
+	q (Ljava/lang/String;)V remove
+dv net/minecraft/server/NBTTagDouble
+	b data
+dw net/minecraft/server/NBTTagEnd
+dx net/minecraft/server/NBTTagFloat
+	b data
+dy net/minecraft/server/NBTTagIntArray
+	b data
+dz net/minecraft/server/NBTTagInt
+	b data
+ari$a net/minecraft/server/BlockLongGrass$EnumTallGrassType
+	a DEAD_BUSH
+	b GRASS
+	c FERN
+ea net/minecraft/server/NBTTagList
+	c list
+	d type
+	a (I)Lei; remove
+	a (Lei;)V add
+	b (I)Ldu; get
+	c ()I size
+	g (I)Ljava/lang/String; getString
+eb net/minecraft/server/NBTTagLong
+	b data
+ec net/minecraft/server/NBTReadLimiter
+ed net/minecraft/server/NBTCompressedStreamTools
+ee net/minecraft/server/GameProfileSerializer
+	a (Ldu;)Lcom/mojang/authlib/GameProfile; deserialize
+	a (Ldu;Lcom/mojang/authlib/GameProfile;)Ldu; serialize
+ef net/minecraft/server/NBTNumber
+	h ()D asDouble
+eg net/minecraft/server/NBTTagShort
+	b data
+eh net/minecraft/server/NBTTagString
+	b data
+ei net/minecraft/server/NBTBase
+	a ()B getTypeId
+	a (B)Lei; createTag
+	a (Ljava/io/DataInput;ILec;)V load
+	a (Ljava/io/DataOutput;)V write
+	b ()Lei; clone
+	b_ ()Z isEmpty
+ej net/minecraft/server/MojangsonParseException
+ek net/minecraft/server/MojangsonParser
+	a (Ljava/lang/String;)Ldu; parse
+em net/minecraft/server/PacketEncryptionHandler
+en net/minecraft/server/PacketDecrypter
+eo net/minecraft/server/PacketEncrypter
+ep net/minecraft/server/PacketDecompressor
+eq net/minecraft/server/PacketCompressor
+er net/minecraft/server/NetworkManager
+	k channel
+	a (I)V setCompressionLevel
+	a (Les;)V setProtocol
+	a (Lew;)V setPacketListener
+	a (Lfb;)V close
+	a (Lfm;)V sendPacket
+	a (Lfm;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V sendPacket
+	b ()Ljava/net/SocketAddress; getSocketAddress
+	c ()Z isLocal
+	g ()Z isConnected
+	k ()V stopReading
+	l ()V handleDisconnection
+es net/minecraft/server/EnumProtocol
+	a HANDSHAKING
+	b PLAY
+	c STATUS
+	d LOGIN
+et net/minecraft/server/PacketDataSerializer
+eu net/minecraft/server/PacketDecoder
+ev net/minecraft/server/PacketEncoder
+ew net/minecraft/server/PacketListener
+ex net/minecraft/server/PacketSplitter
+ey net/minecraft/server/PacketPrepender
+ez net/minecraft/server/ChatBaseComponent
+fa net/minecraft/server/ChatClickable
+fb net/minecraft/server/IChatBaseComponent
+	a (Lfb;)Lfb; addSibling
+	a (Lfg;)Lfb; setChatModifier
+	b ()Lfg; getChatModifier
+	c ()Ljava/lang/String; toPlainText
+	e ()Ljava/lang/String; getText
+fc net/minecraft/server/ChatComponentUtils
+	a (Ln;Lfb;Lsn;)Lfb; filterForDisplay
+fd net/minecraft/server/ChatHoverable
+fe net/minecraft/server/ChatComponentScore
+ff net/minecraft/server/ChatComponentSelector
+fg net/minecraft/server/ChatModifier
+	a ()La; getColor
+	a (La;)Lfg; setColor
+	a (Lfa;)Lfg; setChatClickable
+	a (Lfd;)Lfg; setChatHoverable
+	a (Lfg;)Lfg; setChatModifier
+	a (Ljava/lang/Boolean;)Lfg; setBold
+	a (Ljava/lang/String;)Lfg; setInsertion
+	b ()Z isBold
+	b (Ljava/lang/Boolean;)Lfg; setItalic
+	c ()Z isItalic
+	c (Ljava/lang/Boolean;)Lfg; setStrikethrough
+	d ()Z isStrikethrough
+	d (Ljava/lang/Boolean;)Lfg; setUnderline
+	e ()Z isUnderlined
+	e (Ljava/lang/Boolean;)Lfg; setRandom
+	f ()Z isRandom
+	m ()Lfg; clone
+fh net/minecraft/server/ChatComponentText
+fi net/minecraft/server/ChatMessage
+fj net/minecraft/server/ChatMessageException
+fm net/minecraft/server/Packet
+fn net/minecraft/server/EnumProtocolDirection
+	a SERVERBOUND
+	b CLIENTBOUND
+aik$a net/minecraft/server/EnchantmentManager$EnchantmentModifierArthropods
+fo net/minecraft/server/PlayerConnectionUtils
+	a (Lfm;Lew;Lqy;)V ensureMainThread
+aik$b net/minecraft/server/EnchantmentManager$EnchantmentModifierThorns
+fp net/minecraft/server/PacketListenerPlayOut
+aik$c net/minecraft/server/EnchantmentManager$EnchantmentModifier
+fq net/minecraft/server/PacketPlayOutSpawnEntity
+aik$d net/minecraft/server/EnchantmentManager$EnchantmentModifierDamage
+fr net/minecraft/server/PacketPlayOutSpawnEntityExperienceOrb
+aik$e net/minecraft/server/EnchantmentManager$EnchantmentModifierProtection
+fs net/minecraft/server/PacketPlayOutSpawnEntityWeather
+ft net/minecraft/server/PacketPlayOutSpawnEntityLiving
+fu net/minecraft/server/PacketPlayOutSpawnEntityPainting
+fv net/minecraft/server/PacketPlayOutNamedEntitySpawn
+fw net/minecraft/server/PacketPlayOutAnimation
+fx net/minecraft/server/PacketPlayOutStatistic
+fy net/minecraft/server/PacketPlayOutBlockBreakAnimation
+fz net/minecraft/server/PacketPlayOutTileEntityData
+ga net/minecraft/server/PacketPlayOutBlockAction
+gb net/minecraft/server/PacketPlayOutBlockChange
+	b block
+gc net/minecraft/server/PacketPlayOutBoss
+gd net/minecraft/server/PacketPlayOutServerDifficulty
+ge net/minecraft/server/PacketPlayOutTabComplete
+gf net/minecraft/server/PacketPlayOutChat
+gg net/minecraft/server/PacketPlayOutMultiBlockChange
+gh net/minecraft/server/PacketPlayOutTransaction
+gi net/minecraft/server/PacketPlayOutCloseWindow
+gj net/minecraft/server/PacketPlayOutOpenWindow
+gk net/minecraft/server/PacketPlayOutWindowItems
+gl net/minecraft/server/PacketPlayOutWindowData
+gm net/minecraft/server/PacketPlayOutSetSlot
+gn net/minecraft/server/PacketPlayOutSetCooldown
+go net/minecraft/server/PacketPlayOutCustomPayload
+gp net/minecraft/server/PacketPlayOutCustomSoundEffect
+gq net/minecraft/server/PacketPlayOutKickDisconnect
+gr net/minecraft/server/PacketPlayOutEntityStatus
+gs net/minecraft/server/PacketPlayOutExplosion
+gt net/minecraft/server/PacketPlayOutUnloadChunk
+gu net/minecraft/server/PacketPlayOutGameStateChange
+gv net/minecraft/server/PacketPlayOutKeepAlive
+gw net/minecraft/server/PacketPlayOutMapChunk
+gx net/minecraft/server/PacketPlayOutWorldEvent
+gy net/minecraft/server/PacketPlayOutWorldParticles
+gz net/minecraft/server/PacketPlayOutLogin
+ha net/minecraft/server/PacketPlayOutMap
+hb net/minecraft/server/PacketPlayOutEntity
+hc net/minecraft/server/PacketPlayOutVehicleMove
+hd net/minecraft/server/PacketPlayOutOpenSignEditor
+he net/minecraft/server/PacketPlayOutAbilities
+hf net/minecraft/server/PacketPlayOutCombatEvent
+hg net/minecraft/server/PacketPlayOutPlayerInfo
+hh net/minecraft/server/PacketPlayOutPosition
+hi net/minecraft/server/PacketPlayOutBed
+hj net/minecraft/server/PacketPlayOutEntityDestroy
+hk net/minecraft/server/PacketPlayOutRemoveEntityEffect
+hl net/minecraft/server/PacketPlayOutResourcePackSend
+hm net/minecraft/server/PacketPlayOutRespawn
+hn net/minecraft/server/PacketPlayOutEntityHeadRotation
+ho net/minecraft/server/PacketPlayOutWorldBorder
+hp net/minecraft/server/PacketPlayOutCamera
+hq net/minecraft/server/PacketPlayOutHeldItemSlot
+hr net/minecraft/server/PacketPlayOutScoreboardDisplayObjective
+hs net/minecraft/server/PacketPlayOutEntityMetadata
+ht net/minecraft/server/PacketPlayOutAttachEntity
+hu net/minecraft/server/PacketPlayOutEntityVelocity
+hv net/minecraft/server/PacketPlayOutEntityEquipment
+hw net/minecraft/server/PacketPlayOutExperience
+hx net/minecraft/server/PacketPlayOutUpdateHealth
+hy net/minecraft/server/PacketPlayOutScoreboardObjective
+hz net/minecraft/server/PacketPlayOutMount
+avq$b net/minecraft/server/CustomWorldSettingsFinal$CustomWorldSettingsSerializer
+avq$a net/minecraft/server/CustomWorldSettingsFinal$CustomWorldSettings
+ia net/minecraft/server/PacketPlayOutScoreboardTeam
+ib net/minecraft/server/PacketPlayOutScoreboardScore
+ic net/minecraft/server/PacketPlayOutSpawnPosition
+	a position
+id net/minecraft/server/PacketPlayOutUpdateTime
+ie net/minecraft/server/PacketPlayOutTitle
+ig net/minecraft/server/PacketPlayOutNamedSoundEffect
+ih net/minecraft/server/PacketPlayOutPlayerListHeaderFooter
+ii net/minecraft/server/PacketPlayOutCollect
+ij net/minecraft/server/PacketPlayOutEntityTeleport
+ik net/minecraft/server/PacketPlayOutUpdateAttributes
+il net/minecraft/server/PacketPlayOutEntityEffect
+im net/minecraft/server/PacketListenerPlayIn
+in net/minecraft/server/PacketPlayInTeleportAccept
+io net/minecraft/server/PacketPlayInTabComplete
+ip net/minecraft/server/PacketPlayInChat
+iq net/minecraft/server/PacketPlayInClientCommand
+ir net/minecraft/server/PacketPlayInSettings
+	f ()Lsv; getMainHand
+is net/minecraft/server/PacketPlayInTransaction
+it net/minecraft/server/PacketPlayInEnchantItem
+bee$a net/minecraft/server/ScoreboardTeamBase$EnumTeamPush
+	a ALWAYS
+	b NEVER
+	c HIDE_FOR_OTHER_TEAMS
+	d HIDE_FOR_OWN_TEAM
+iu net/minecraft/server/PacketPlayInWindowClick
+	b slot
+	c button
+	e item
+	f shift
+iv net/minecraft/server/PacketPlayInCloseWindow
+	a id
+iw net/minecraft/server/PacketPlayInCustomPayload
+ix net/minecraft/server/PacketPlayInUseEntity
+	b action
+iy net/minecraft/server/PacketPlayInKeepAlive
+iz net/minecraft/server/PacketPlayInFlying
+	a x
+	b y
+	c z
+	d yaw
+	e pitch
+	g hasPos
+	h hasLook
+ja net/minecraft/server/PacketPlayInVehicleMove
+	a ()D getX
+	b ()D getY
+	c ()D getZ
+	d ()F getYaw
+	e ()F getPitch
+jb net/minecraft/server/PacketPlayInBoatMove
+jc net/minecraft/server/PacketPlayInAbilities
+	b ()Z isFlying
+jd net/minecraft/server/PacketPlayInBlockDig
+je net/minecraft/server/PacketPlayInEntityAction
+	b animation
+jf net/minecraft/server/PacketPlayInSteerVehicle
+jg net/minecraft/server/PacketPlayInResourcePackStatus
+	a status
+jh net/minecraft/server/PacketPlayInHeldItemSlot
+	a itemInHandIndex
+ji net/minecraft/server/PacketPlayInSetCreativeSlot
+	a slot
+	b ()Lafj; getItemStack
+jj net/minecraft/server/PacketPlayInUpdateSign
+jk net/minecraft/server/PacketPlayInArmAnimation
+jl net/minecraft/server/PacketPlayInSpectate
+jm net/minecraft/server/PacketPlayInUseItem
+jn net/minecraft/server/PacketPlayInBlockPlace
+jp net/minecraft/server/PacketHandshakingInSetProtocol
+	b hostname
+	c port
+jq net/minecraft/server/PacketHandshakingInListener
+js net/minecraft/server/PacketLoginOutListener
+jt net/minecraft/server/PacketLoginOutSuccess
+ju net/minecraft/server/PacketLoginOutEncryptionBegin
+jv net/minecraft/server/PacketLoginOutSetCompression
+jw net/minecraft/server/PacketLoginOutDisconnect
+jx net/minecraft/server/PacketLoginInListener
+jy net/minecraft/server/PacketLoginInStart
+jz net/minecraft/server/PacketLoginInEncryptionBegin
+bee$b net/minecraft/server/ScoreboardTeamBase$EnumNameTagVisibility
+	a ALWAYS
+	b NEVER
+	c HIDE_FOR_OTHER_TEAMS
+	d HIDE_FOR_OWN_TEAM
+agz$b net/minecraft/server/PotionBrewer$PredicatedCombination
+agz$a net/minecraft/server/PotionBrewer$PredicateItem
+kc net/minecraft/server/PacketStatusOutListener
+kd net/minecraft/server/PacketStatusOutPong
+ke net/minecraft/server/PacketStatusOutServerInfo
+abb$a net/minecraft/server/EntityArrow$PickupStatus
+	a DISALLOWED
+	b ALLOWED
+	c CREATIVE_ONLY
+kf net/minecraft/server/ServerPing
+	a (Lfb;)V setMOTD
+	a (Ljava/lang/String;)V setFavicon
+	a (Lkf$a;)V setPlayerSample
+	a (Lkf$c;)V setServerInfo
+	c ()Lkf$c; getServerData
+kg net/minecraft/server/PacketStatusInListener
+kh net/minecraft/server/PacketStatusInPing
+ki net/minecraft/server/PacketStatusInStart
+kk net/minecraft/server/DataWatcherObject
+kl net/minecraft/server/DataWatcherSerializer
+km net/minecraft/server/DataWatcherRegistry
+kn net/minecraft/server/DataWatcher
+	a (Lkk;)Ljava/lang/Object; get
+	a (Lkk;Ljava/lang/Object;)V register
+	b (Lkk;)V markDirty
+	b (Lkk;Ljava/lang/Object;)V set
+	c (Lkk;Ljava/lang/Object;)V registerObject
+kq net/minecraft/server/MinecraftKey
+ks net/minecraft/server/DispenseBehaviorProjectile
+	b ()F getPower
+kt net/minecraft/server/DispenserRegistry
+kv net/minecraft/server/ServerCommand
+	a command
+	b source
+kx net/minecraft/server/DebugOutputStream
+ky net/minecraft/server/EULA
+kz net/minecraft/server/RedirectStream
+lb net/minecraft/server/CancelledPacketHandleException
+	a INSTANCE
+lc net/minecraft/server/IMinecraftServer
+	G ()Ljava/lang/String; getVersion
+	J ()[Ljava/lang/String; getPlayers
+	L ()Z isDebugging
+	a_ (Ljava/lang/String;)Ljava/lang/String; executeRemoteCommand
+	e (Ljava/lang/String;)V info
+	f (Ljava/lang/String;)V warning
+	g_ ()Ljava/lang/String; getPlugins
+ld net/minecraft/server/ScoreboardServer
+	d (Lbdy;)Ljava/util/List; getScoreboardScorePacketsForObjective
+le net/minecraft/server/PropertyManager
+	b properties
+	c file
+	a (Ljava/lang/String;I)I getInt
+	a (Ljava/lang/String;J)J getLong
+	a (Ljava/lang/String;Ljava/lang/Object;)V setProperty
+	a (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; getString
+	a (Ljava/lang/String;Z)Z getBoolean
+	b ()V savePropertiesFile
+lf net/minecraft/server/ITickable
+lg net/minecraft/server/DedicatedPlayerList
+	b ()Llh; getServer
+lh net/minecraft/server/DedicatedServer
+	k LOGGER
+	m serverCommandQueue
+	o remoteControlCommandListener
+	q propertyManager
+	s generateStructures
+	a (Ljava/lang/String;Ln;)V issueCommand
+li net/minecraft/server/ThreadWatchdog
+lk net/minecraft/server/ServerGUI
+ll net/minecraft/server/PlayerListBox
+lm net/minecraft/server/GuiStatsComponent
+lq net/minecraft/server/DemoWorldServer
+lr net/minecraft/server/DemoPlayerInteractManager
+ls net/minecraft/server/SecondaryWorldServer
+lt net/minecraft/server/EntityTracker
+	b world
+	d trackedEntities
+	a ()V updatePlayers
+	a (Lsn;)V track
+	a (Lsn;II)V addEntity
+	a (Lsn;IIZ)V addEntity
+	b (Lly;)V untrackPlayer
+	b (Lsn;)V untrackEntity
+	b (Lsn;Lfm;)V sendPacketToEntity
+lu net/minecraft/server/BossBattleServer
+	j visible
+	a (F)V setProgress
+	a (Lgc$a;)V sendUpdate
+	a (Lly;)V addPlayer
+	a (Z)Lra; setDarkenSky
+	b (Lly;)V removePlayer
+	b (Z)Lra; setPlayMusic
+	c ()Ljava/util/Collection; getPlayers
+	c (Z)Lra; setCreateFog
+	d (Z)V setVisible
+lv net/minecraft/server/ChunkProviderServer
+	b unloadQueue
+	c chunkGenerator
+	d chunkLoader
+	e chunks
+	f world
+	a (Lauo;)V unload
+	b (II)Lauo; getOrLoadChunkAt
+	b (Lauo;)V saveChunkNOP
+	c (Lauo;)V saveChunk
+	d (II)Z isLoaded
+	f (II)Lauo; loadChunk
+lw net/minecraft/server/WorldServer
+	I server
+	J tracker
+	K manager
+	L nextTickListHash
+	M nextTickList
+	N entitiesByUUID
+	P emptyTime
+	Q portalTravelAgent
+	R spawnerCreature
+	b savingDisabled
+	c siegeManager
+	a (IIIIII)Ljava/util/List; getTileEntities
+	a (Ljava/util/UUID;)Lsn; getEntity
+	a (ZLov;)V save
+	al ()Z getSpawnNPCs
+	am ()Z getSpawnAnimals
+	g ()Z everyoneDeeplySleeping
+	p ()Lco; getDimensionSpawn
+	q ()V flushSave
+	r ()Llv; getChunkProviderServer
+	s ()V saveLevel
+	v ()Llt; getTracker
+	w ()Lmc; getPlayerChunkMap
+	x ()Laka; getTravelAgent
+lx net/minecraft/server/WorldManager
+	b world
+ly net/minecraft/server/EntityPlayer
+	a playerConnection
+	b server
+	bS locale
+	bT removeQueue
+	c playerInteractManager
+	cb lastHealthSent
+	ce lastSentExp
+	cf invulnerableTicks
+	ck worldChangeInvuln
+	cl containerCounter
+	g ping
+	h viewingCredits
+	C ()Laay$b; getChatFlags
+	D ()V resetIdleTimer
+	E ()Lnv; getStatisticManager
+	G ()Lsn; getSpecatorTarget
+	J ()Lfb; getPlayerListName
+	a (Lacl;)V updateInventory
+	a (Ljava/lang/String;Ljava/lang/String;)V setResourcePack
+	dl ()Z canPvP
+	dm ()V nextContainerCounter
+	e (Lsn;)V setSpectatorTarget
+	j_ ()V syncInventory
+	k_ ()V playerTick
+	r ()V broadcastCarriedItem
+	u ()V triggerHealthUpdate
+azy$a net/minecraft/server/GenLayerSpecial$EnumGenLayerSpecial
+	a COOL_WARM
+	b HEAT_ICE
+	c SPECIAL
+lz net/minecraft/server/PlayerInteractManager
+	a world
+	b player
+	c gamemode
+	e lastDigTick
+	g currentTick
+	a (Lajq;)V setGameMode
+	b ()Lajq; getGameMode
+	b (Lco;)Z breakBlock
+	d ()Z isCreative
+aat$d net/minecraft/server/EntityVillager$MerchantRecipeOptionProcess
+aat$e net/minecraft/server/EntityVillager$MerchantRecipeOptionSell
+aat$f net/minecraft/server/EntityVillager$IMerchantRecipeOption
+aat$g net/minecraft/server/EntityVillager$MerchantOptionRandomRange
+ma net/minecraft/server/EntityTrackerEntry
+	d tracker
+	h xLoc
+	i yLoc
+	j zLoc
+	k yRot
+	l xRot
+	m headYaw
+	t isMoving
+	z trackedPlayers
+	a (Lfm;)V broadcast
+	a (Ljava/util/List;)V track
+	b (Lfm;)V broadcastIncludingSelf
+	b (Ljava/util/List;)V scanPlayers
+	b (Lly;)V updatePlayer
+	d (Lly;)V clear
+mb net/minecraft/server/PlayerChunk
+	b playerChunkMap
+	d location
+	e dirtyBlocks
+	f chunk
+	g dirtyCount
+	j done
+	c (Lly;)V sendChunk
+arm$a net/minecraft/server/BlockTrapdoor$EnumTrapdoorHalf
+	a TOP
+	b BOTTOM
+aat$a net/minecraft/server/EntityVillager$MerchantRecipeOptionBuy
+mc net/minecraft/server/PlayerChunkMap
+	c world
+	d managedPlayers
+	a ()Llw; getWorld
+	a (Lco;)V flagDirty
+	a (Lly;)V addPlayer
+	b (I)I getFurthestViewableBlock
+	b (II)Lmb; getChunk
+	b (Lly;)V removePlayer
+	c ()V flush
+	c (Lly;)V movePlayer
+aat$b net/minecraft/server/EntityVillager$MerchantRecipeOptionBook
+aat$c net/minecraft/server/EntityVillager$MerchantRecipeOptionEnchant
+mf net/minecraft/server/LegacyPingHandler
+mh net/minecraft/server/ServerConnection
+mi net/minecraft/server/PlayerConnection
+	F receivedMovePackets
+	G processedMovePackets
+	a networkManager
+	b player
+	c LOGGER
+	d minecraftServer
+	i chatThrottle
+	y teleportPos
+	z teleportAwait
+	a (Lfm;)V sendPacket
+	c (Ljava/lang/String;)V disconnect
+	d ()V syncPosition
+	d (Ljava/lang/String;)V handleCommand
+mj net/minecraft/server/HandshakeListener
+mk net/minecraft/server/LoginListener
+	a networkManager
+	d random
+	f server
+	k loginKey
+	a (Ljava/lang/String;)V disconnect
+ml net/minecraft/server/PacketStatusListener
+	b minecraftServer
+	c networkManager
+mo net/minecraft/server/ExpirableListEntry
+	c ()Ljava/util/Date; getExpires
+	d ()Ljava/lang/String; getReason
+mp net/minecraft/server/UserCache
+	a (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile; getProfile
+mq net/minecraft/server/IpBanList
+	a (Ljava/net/SocketAddress;)Z isBanned
+	b (Ljava/net/SocketAddress;)Lmr; get
+mr net/minecraft/server/IpBanEntry
+ms net/minecraft/server/NameReferencingFileConverter
+mt net/minecraft/server/PlayerList
+	e maxPlayers
+	h server
+	i players
+	m operators
+	n whitelist
+	p playerFileData
+	q hasWhitelist
+	a ()V reloadWhitelist
+	a (Laay;DDDDILfm;)V sendPacketNearby
+	a (Lcom/mojang/authlib/GameProfile;)V addOp
+	a (Lfb;)V sendMessage
+	a (Lfb;Z)V sendMessage
+	a (Lfm;)V sendAll
+	a (Ljava/lang/String;)Lly; getPlayer
+	a (Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String; attemptLogin
+	a (Lld;Lly;)V sendScoreboard
+	a (Lly;IZ)Lly; moveToWorld
+	a (Lsn;ILlw;Llw;)V changeWorld
+	a (Z)V setHasWhitelist
+	a ([Llw;)V setPlayerFileData
+	b (Lcom/mojang/authlib/GameProfile;)V removeOp
+	b (Lly;)V savePlayerFile
+	c ()Lnet/minecraft/server/MinecraftServer; getServer
+	c (Lcom/mojang/authlib/GameProfile;)V removeWhitelist
+	c (Lly;)V onPlayerJoin
+	d (Lcom/mojang/authlib/GameProfile;)V addWhitelist
+	e ()V tick
+	e (Lcom/mojang/authlib/GameProfile;)Z isWhitelisted
+	e (Lly;)V disconnect
+	g (Lcom/mojang/authlib/GameProfile;)Lly; processLogin
+	g (Lly;)V updateClient
+	h ()Lmy; getProfileBans
+	h (Lcom/mojang/authlib/GameProfile;)Z isOp
+	i ()Lmq; getIPBans
+	j ()V savePlayers
+	k ()Lna; getWhitelist
+	l ()[Ljava/lang/String; getWhitelisted
+	m ()Lmu; getOPs
+	o ()I getPlayerCount
+	p ()I getMaxPlayers
+	q ()[Ljava/lang/String; getSeenPlayers
+	r ()Z getHasWhitelist
+mu net/minecraft/server/OpList
+mv net/minecraft/server/OpListEntry
+mw net/minecraft/server/JsonListEntry
+	e ()Z hasExpired
+	f ()Ljava/lang/Object; getKey
+mx net/minecraft/server/JsonList
+	a ()[Ljava/lang/String; getEntries
+	a (Lmw;)V add
+	b ()Z isEnabled
+	b (Ljava/lang/Object;)Lmw; get
+	c (Ljava/lang/Object;)V remove
+	d ()Z isEmpty
+	f ()V save
+	g ()V load
+my net/minecraft/server/GameProfileBanList
+	a (Lcom/mojang/authlib/GameProfile;)Z isBanned
+mz net/minecraft/server/GameProfileBanEntry
+na net/minecraft/server/WhiteList
+	a (Lcom/mojang/authlib/GameProfile;)Z isWhitelisted
+nb net/minecraft/server/WhiteListEntry
+nd net/minecraft/server/RemoteStatusReply
+ne net/minecraft/server/StatusChallengeUtils
+nf net/minecraft/server/RemoteControlCommandListener
+	i ()V clearMessages
+	j ()Ljava/lang/String; getMessages
+nh net/minecraft/server/RemoteConnectionThread
+ni net/minecraft/server/RemoteStatusListener
+nj net/minecraft/server/RemoteControlSession
+nk net/minecraft/server/RemoteControlListener
+nm net/minecraft/server/SoundEffect
+nn net/minecraft/server/SoundEffects
+	dQ BLOCK_METAL_PRESSUREPLATE_CLICK_OFF
+	eG ENTITY_PLAYER_HURT
+	ew ENTITY_PLAYER_ATTACK_CRIT
+no net/minecraft/server/SoundCategory
+	a MASTER
+	b MUSIC
+	c RECORDS
+	d WEATHER
+	e BLOCKS
+	f HOSTILE
+	g NEUTRAL
+	h PLAYERS
+	i AMBIENT
+	j VOICE
+nq net/minecraft/server/Achievement
+nr net/minecraft/server/AchievementList
+nt net/minecraft/server/CounterStatistic
+nu net/minecraft/server/CraftingStatistic
+nv net/minecraft/server/ServerStatisticManager
+	b (Lly;)V updateStatistics
+nw net/minecraft/server/Statistic
+	e name
+nx net/minecraft/server/Counter
+ny net/minecraft/server/StatisticWrapper
+nz net/minecraft/server/IJsonStatistic
+hg$a net/minecraft/server/PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+	a ADD_PLAYER
+	b UPDATE_GAME_MODE
+	c UPDATE_LATENCY
+	d UPDATE_DISPLAY_NAME
+	e REMOVE_PLAYER
+hg$b net/minecraft/server/PacketPlayOutPlayerInfo$PlayerInfoData
+oa net/minecraft/server/StatisticList
+	b stats
+	a (Ljava/lang/String;)Lnw; getStatistic
+ob net/minecraft/server/StatisticManager
+	a (Laay;Lnw;I)V setStatistic
+	a (Lnq;)Z hasAchievement
+	a (Lnw;)I getStatisticValue
+sx$a net/minecraft/server/EntityInsentient$EnumEntityPositionType
+	a ON_GROUND
+	b IN_AIR
+	c IN_WATER
+oc net/minecraft/server/AchievementSet
+oe net/minecraft/server/DataBits
+of net/minecraft/server/EntitySlice
+oh net/minecraft/server/RegistryID
+	a (I)Ljava/lang/Object; fromId
+	a (Ljava/lang/Object;)I getId
+oi net/minecraft/server/MinecraftEncryption
+ok net/minecraft/server/ChatDeserializer
+ol net/minecraft/server/HttpUtilities
+om net/minecraft/server/InsensitiveStringMap
+oo net/minecraft/server/IntHashMap
+	a (I)Ljava/lang/Object; get
+op net/minecraft/server/LazyInitVar
+	b ()Ljava/lang/Object; init
+os net/minecraft/server/ChatTypeAdapterFactory
+ot net/minecraft/server/MathHelper
+	a (D)F sqrt
+	a (F)F sin
+	a (III)I clamp
+	a (Ljava/util/Random;II)I nextInt
+	b (F)F cos
+	c (D)I floor
+ou net/minecraft/server/MethodProfiler
+ov net/minecraft/server/IProgressUpdate
+ox net/minecraft/server/INamable
+	m ()Ljava/lang/String; getName
+oy net/minecraft/server/UtilColor
+pa net/minecraft/server/Tuple
+pb net/minecraft/server/WeightedRandom
+pd net/minecraft/server/IDataConverter
+pe net/minecraft/server/DataConverterType
+pf net/minecraft/server/DataConverterTypes
+	a LEVEL
+	b PLAYER
+	c CHUNK
+	d BLOCK_ENTITY
+	e ENTITY
+	f ITEM_INSTANCE
+	g OPTIONS
+	h STRUCTURE
+pg net/minecraft/server/DataConverter
+ph net/minecraft/server/DataConverterManager
+pi net/minecraft/server/DataConverterRegistry
+pj net/minecraft/server/DataInspector
+pk net/minecraft/server/DataConverterTileEntity
+pl net/minecraft/server/DataConverterMobSpawner
+aqj$a net/minecraft/server/BlockSand$EnumSandVariant
+	a SAND
+	b RED_SAND
+pm net/minecraft/server/DataConverterShulkerBoxBlock
+pn net/minecraft/server/DataConverterSignText
+po net/minecraft/server/DataConverterArmorStand
+pp net/minecraft/server/DataConverterGuardian
+amx$b net/minecraft/server/BlockDoor$EnumDoorHinge
+	a LEFT
+	b RIGHT
+pq net/minecraft/server/DataConverterEquipment
+pr net/minecraft/server/DataConverterHealth
+ps net/minecraft/server/DataConverterSaddle
+amx$a net/minecraft/server/BlockDoor$EnumDoorHalf
+	a UPPER
+	b LOWER
+pt net/minecraft/server/DataConverterHorse
+pu net/minecraft/server/DataConverterEntity
+pv net/minecraft/server/DataConverterMinecart
+pw net/minecraft/server/DataConverterHanging
+px net/minecraft/server/DataConverterDropChances
+py net/minecraft/server/DataConverterRiding
+pz net/minecraft/server/DataConverterShulker
+qa net/minecraft/server/DataConverterSkeleton
+qb net/minecraft/server/DataConverterUUID
+qc net/minecraft/server/DataConverterZombieType
+qd net/minecraft/server/DataConverterZombie
+qe net/minecraft/server/DataConverterBanner
+qf net/minecraft/server/DataConverterCookedFish
+qg net/minecraft/server/DataConverterMaterialId
+qh net/minecraft/server/DataConverterPotionId
+qi net/minecraft/server/DataConverterShulkerBoxItem
+qj net/minecraft/server/DataConverterSpawnEgg
+qk net/minecraft/server/DataConverterTotem
+ql net/minecraft/server/DataConverterPotionWater
+pb$a net/minecraft/server/WeightedRandom$WeightedRandomChoice
+qm net/minecraft/server/DataConverterBook
+qn net/minecraft/server/DataConverterVBO
+qo net/minecraft/server/DataConverterLang
+qr net/minecraft/server/DataInspectorItem
+qs net/minecraft/server/DataInspectorBlockEntity
+qt net/minecraft/server/DataInspectorEntity
+qu net/minecraft/server/DataInspectorItemList
+qv net/minecraft/server/DataInspectorTagged
+qy net/minecraft/server/IAsyncTaskHandler
+	a (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture; postToMainThread
+	aF ()Z isMainThread
+ra net/minecraft/server/BossBattle
+	a title
+	c color
+	d style
+	f ()F getProgress
+rb net/minecraft/server/InventoryLargeChest
+	b left
+	c right
+rc net/minecraft/server/IInventory
+	a (I)Lafj; getItem
+	a (II)Lafj; splitStack
+	a (ILafj;)V setItem
+	b (I)Lafj; splitWithoutUpdate
+	b (II)V setProperty
+	b (Laay;)V startOpen
+	c (Laay;)V closeContainer
+	c_ (I)I getProperty
+	m ()V clear
+	v_ ()I getSize
+	x_ ()V update
+	y_ ()I getMaxStackSize
+amg$a net/minecraft/server/BlockChest$Type
+	a BASIC
+	b TRAP
+rd net/minecraft/server/ContainerUtil
+re net/minecraft/server/IInventoryListener
+rf net/minecraft/server/InventoryUtils
+	a (Lajs;DDDLafj;)V dropItem
+	a (Lajs;DDDLrc;)V dropInventory
+	a (Lajs;Lco;Lrc;)V dropInventory
+	a (Lajs;Lsn;Lrc;)V dropEntity
+rg net/minecraft/server/EnumDifficulty
+	a PEACEFUL
+	b EASY
+	c NORMAL
+	d HARD
+	a (I)Lrg; getById
+rh net/minecraft/server/DifficultyDamageScaler
+ri net/minecraft/server/EnumHand
+	a MAIN_HAND
+	b OFF_HAND
+rj net/minecraft/server/ITileEntityContainer
+	a (Laax;Laay;)Lacl; createContainer
+	l ()Ljava/lang/String; getContainerName
+rk net/minecraft/server/EnumInteractionResult
+	a SUCCESS
+	b PASS
+	c FAIL
+rl net/minecraft/server/InteractionResultWrapper
+rn net/minecraft/server/ChestLock
+ro net/minecraft/server/ITileInventory
+	j ()Lrn; getLock
+	z_ ()Z isLocked
+rp net/minecraft/server/INamableTileEntity
+	h_ ()Ljava/lang/String; getName
+	i_ ()Lfb; getScoreboardDisplayName
+	n_ ()Z hasCustomName
+rq net/minecraft/server/ILootable
+rr net/minecraft/server/InventorySubcontainer
+	c items
+	x_ ()V update
+	y_ ()I getMaxStackSize
+rs net/minecraft/server/MojangStatisticsGenerator
+rt net/minecraft/server/IMojangStatistics
+	Z ()Z getSnooperEnabled
+ru net/minecraft/server/IWorldInventory
+	a (ILafj;Lcv;)Z canPlaceItemThroughFace
+	a (Lcv;)[I getSlotsForFace
+	b (ILafj;Lcv;)Z canTakeItemThroughFace
+rv net/minecraft/server/CombatEntry
+rw net/minecraft/server/CombatMath
+rx net/minecraft/server/CombatTracker
+	a (Lry;FF)V trackDamage
+	b ()Lfb; getDeathMessage
+ry net/minecraft/server/DamageSource
+	a FIRE
+	b LIGHTNING
+	c BURN
+	d LAVA
+	e HOT_FLOOR
+	f STUCK
+	g CRAMMING
+	h DROWN
+	i STARVE
+	j CACTUS
+	k FALL
+	l FLY_INTO_WALL
+	m OUT_OF_WORLD
+	n GENERIC
+	o MAGIC
+	p WITHER
+	q ANVIL
+	r FALLING_BLOCK
+	s DRAGON_BREATH
+	u translationIndex
+	a (Laay;)Lry; playerAttack
+	a (Labb;Lsn;)Lry; arrow
+	a (Labf;Lsn;)Lry; fireball
+	a (Lajn;)Lry; explosion
+	a (Lsn;Lsn;)Lry; projectile
+	a (Lsw;)Lry; mobAttack
+	c ()Z isExplosion
+	c (Lsw;)Lfb; getLocalizedDeathMessage
+	e ()Z ignoresArmor
+	f ()F getExhaustionCost
+	g ()Z ignoresInvulnerability
+	h ()Z isStarvation
+	j ()Lsn; getEntity
+	k ()Lry; setIgnoreArmor
+	n ()Lry; setExplosion
+	s ()Z isMagic
+	t ()Lry; setMagic
+rz net/minecraft/server/EntityDamageSource
+	c (Lsw;)Lfb; getLocalizedDeathMessage
+	j ()Lsn; getEntity
+sa net/minecraft/server/EntityDamageSourceIndirect
+	w owner
+sc net/minecraft/server/MobEffectAbsorption
+sd net/minecraft/server/MobEffectAttackDamage
+se net/minecraft/server/MobEffectHealthBoost
+sf net/minecraft/server/InstantMobEffect
+sg net/minecraft/server/MobEffectList
+	b REGISTRY
+	g durationModifier
+	a (I)Lsg; fromId
+	a (Lsg;)I getId
+	a (Lsn;Lsn;Lsw;ID)V applyInstantEffect
+	a (Lsw;I)V tick
+	b ()Z isInstant
+	b (Ljava/lang/String;)Lsg; getByName
+	g ()I getColor
+sh net/minecraft/server/MobEffect
+	c duration
+	d amplification
+	e splash
+	f ambient
+	a ()Lsg; getMobEffect
+	a (Lsw;)Z tick
+	b ()I getDuration
+	c ()I getAmplifier
+	d ()Z isAmbient
+	e ()Z isShowParticles
+si net/minecraft/server/MobEffects
+	a FASTER_MOVEMENT
+	b SLOWER_MOVEMENT
+	c FASTER_DIG
+	d SLOWER_DIG
+	e INCREASE_DAMAGE
+	f HEAL
+	g HARM
+	h JUMP
+	i CONFUSION
+	j REGENERATION
+	k RESISTANCE
+	l FIRE_RESISTANCE
+	m WATER_BREATHING
+	n INVISIBILITY
+	o BLINDNESS
+	p NIGHT_VISION
+	q HUNGER
+	r WEAKNESS
+	s POISON
+	t WITHER
+	u HEALTH_BOOST
+	v ABSORBTION
+	w SATURATION
+	x GLOWING
+	y LEVITATION
+sk net/minecraft/server/EntityAgeable
+	a (I)V setAge
+	a (IZ)V setAge
+	a (Lsk;)Lsk; createChild
+	b_ (I)V setAgeRaw
+	l ()I getAge
+sl net/minecraft/server/EntityAreaEffectCloud
+	aA radiusPerTick
+	av waitTime
+	aw reapplicationDelay
+	ax hasColor
+	ay durationOnUse
+	az radiusOnUse
+	g potionRegistry
+	h effects
+	a (F)V setRadius
+	a (I)V setColor
+	a (Lde;)V setParticle
+	a (Lsw;)V setSource
+	b (F)V setRadiusOnUse
+	c (F)V setRadiusPerTick
+	e (I)V setDuration
+	g (I)V setWaitTime
+	j ()F getRadius
+	k ()I getColor
+	l ()Lde; getParticle
+	r ()I getDuration
+sm net/minecraft/server/IAnimal
+sn net/minecraft/server/Entity
+	A positionChanged
+	D velocityChanged
+	F dead
+	G width
+	H length
+	L fallDistance
+	Q noclip
+	S random
+	T ticksLived
+	U inWater
+	V noDamageTicks
+	W justCreated
+	X fireProof
+	Y datawatcher
+	aE invulnerable
+	ai impulse
+	aj portalCooldown
+	am dimension
+	aq uniqueID
+	as glowing
+	at passengers
+	av boundingBox
+	ay fireTicks
+	g entityCount
+	h id
+	k attachedToPlayer
+	l world
+	m lastX
+	n lastY
+	o lastZ
+	p locX
+	q locY
+	r locZ
+	s motX
+	t motY
+	u motZ
+	v yaw
+	w pitch
+	x lastYaw
+	y lastPitch
+	z onGround
+	O ()I getId
+	R ()Lkn; getDataWatcher
+	T ()V die
+	W ()V burnFromLava
+	X ()V extinguish
+	Z ()V recalcPosition
+	a (DDD)V enderTeleportTo
+	a (DDDFF)V setLocation
+	a (FF)V setSize
+	a (Lajs;)V spawnIn
+	a (Lc;)V appendEntityCrashDetails
+	a (Lco;FF)V setPositionRotation
+	a (Lry;F)Z damageEntity
+	a (Lss;Lafj;)V setEquipment
+	a (Ltc;DDD)V move
+	a (Lzg;)V onLightningStrike
+	aH ()Ljava/lang/Iterable; getArmorItems
+	aJ ()Z isBurning
+	aK ()Z isPassenger
+	aL ()Z isVehicle
+	aM ()Z isSneaking
+	aN ()Z isSprinting
+	aP ()Z isInvisible
+	aR ()I getAirTicks
+	aU ()F getHeadRotation
+	ac ()V checkBlockCollisions
+	ad ()Z isSilent
+	ae ()Z isNoGravity
+	af ()Z playStepSound
+	ah ()Z isFireProof
+	aj ()Z isInWater
+	aq ()Z isInteractable
+	ar ()Z isCollidable
+	au ()Z isAlive
+	av ()Z inBlock
+	b (DDD)V setPosition
+	b (DDDFF)V setPositionRotation
+	b (FF)V setYawPitch
+	b (IZ)V setFlag
+	b (Lry;)Z isInvulnerable
+	bD ()I getMaxFireTicks
+	ba ()Lbdw; getPortalOffset
+	bb ()Lcv; getPortalDirection
+	bc ()Z isIgnoreBlockTrigger
+	be ()Ljava/util/UUID; getUniqueID
+	bi ()Ljava/lang/String; getCustomName
+	bj ()Z getCustomNameVisible
+	bl ()Lcv; getDirection
+	bo ()Lbdt; getBoundingBox
+	bq ()F getHeadHeight
+	bz ()Lsn; getVehicle
+	c (Ljava/lang/String;)V setCustomName
+	c (Z)V setSilent
+	d (Z)V setNoGravity
+	e (Z)V setSneaking
+	f (Z)V setSprinting
+	g ()Z getSendCommandFeedback
+	h (Z)V setInvisible
+	h_ ()Ljava/lang/String; getName
+	i (I)V setOnFire
+	i (Lsn;)V collide
+	i (Z)V setInvulnerable
+	i_ ()Lfb; getScoreboardDisplayName
+	j (I)V burn
+	j (Z)V setCustomNameVisible
+	k (I)Z getFlag
+	l (I)V setAirTicks
+	m (Lsn;)Z startRiding
+	n_ ()Z hasCustomName
+	p ()V stopRiding
+sp net/minecraft/server/EntityTypes
+	c eggInfo
+	a (Ljava/lang/Class;)Lkq; getName
+sr net/minecraft/server/IEntitySelector
+ss net/minecraft/server/EnumItemSlot
+	a MAINHAND
+	b OFFHAND
+	c FEET
+	d LEGS
+	e CHEST
+	f HEAD
+st net/minecraft/server/EntityExperienceOrb
+	e value
+	f targetPlayer
+	g targetTime
+	a (I)I getOrbValue
+su net/minecraft/server/EntityFlying
+sv net/minecraft/server/EnumMainHand
+	a LEFT
+	b RIGHT
+sw net/minecraft/server/EntityLiving
+	aB deathTicks
+	aI maxNoDamageTicks
+	aS killer
+	aT lastDamageByPlayerTime
+	aV ticksFarFromPlayer
+	ay hurtTicks
+	bc lastDamage
+	bn activeItem
+	br attributeMap
+	bs combatTracker
+	bt effects
+	bw updateEffects
+	bx lastDamager
+	by hurtTimestamp
+	f HEALTH
+	D (Lsn;)Z hasLineOfSight
+	a (Lry;)V die
+	a (Lry;F)Z damageEntity
+	a (Lsg;)Z hasEffect
+	a (Lsn;I)V receive
+	a (Lss;Lafj;)V setSlot
+	a (Ltj;)Ltk; getAttributeInstance
+	a (ZI)V dropEquipment
+	b (F)V heal
+	b (Laay;)I getExpValue
+	b (Lry;F)F applyArmorModifier
+	b (Lsg;)Lsh; getEffect
+	b (Lss;)Lafj; getEquipment
+	b (ZI)V dropDeathLoot
+	bE ()V initAttributes
+	bH ()Z isDropExperience
+	bI ()Z alwaysGivesExp
+	bJ ()Ljava/util/Random; getRandom
+	bK ()Lsw; getLastDamager
+	bP ()V tickPotionEffects
+	bR ()V removeAllEffects
+	bS ()Ljava/util/Collection; getEffects
+	bU ()F getHealth
+	bY ()I getArmorStrength
+	bZ ()Lrx; getCombatTracker
+	c (F)V setHealth
+	c (Lry;F)F applyMagicModifier
+	c (Lsh;)V addEffect
+	cE ()V clearActiveItem
+	cG ()Z isBlocking
+	cb ()F getMaxHealth
+	ce ()Ltn; getAttributeMap
+	cf ()Ltb; getMonsterType
+	cg ()Lafj; getItemInMainHand
+	ch ()Lafj; getItemInOffHand
+	ck ()Z isFrozen
+	cr ()Z isSleeping
+	cs ()V doTick
+	cv ()F getAbsorptionHearts
+	cx ()Lsv; getMainHand
+	cy ()Z isHandRaised
+	d (Lry;F)V damageEntity0
+	d (Lsg;)V removeEffect
+	e (Lry;)Z applyBlockingModifier
+	j ()V enterCombat
+	j (F)V damageArmor
+	k ()V exitCombat
+	k (F)V damageShield
+	l_ ()Z isBaby
+	n (F)V setAbsorptionHearts
+sx net/minecraft/server/EntityInsentient
+	b lookController
+	bE leashHolder
+	bq goalSelector
+	br targetSelector
+	bs dropChanceHand
+	bt dropChanceArmor
+	bu goalTarget
+	by canPickUpLoot
+	bz persistent
+	f moveController
+	h navigation
+	E ()V doSpawnEffect
+	I ()Lafh; getLoot
+	K ()Z isTypeNotPersistent
+	a (Lrh;Lsz;)Lsz; prepare
+	a (ZZ)V unleash
+	b (Laay;)I getExpValue
+	b (Lsn;Z)V setLeashHolder
+	b (ZI)V dropDeathLoot
+	cN ()Z canSpawn
+	cU ()Z isPersistent
+	cW ()Z isLeashed
+	cX ()Lsn; getLeashHolder
+	cY ()Z hasAI
+	d (Lsw;)V setGoalTarget
+	n (Z)V setAI
+	t ()Ltv; getControllerLook
+	u ()Ltw; getControllerMove
+	w ()Ltu; getControllerJump
+	x ()Lwf; getNavigation
+	y ()Lwk; getEntitySenses
+	z ()Lsw; getGoalTarget
+sy net/minecraft/server/EnumCreatureType
+	a MONSTER
+	b CREATURE
+	c AMBIENT
+	d WATER_CREATURE
+sz net/minecraft/server/GroupDataEntity
+ta net/minecraft/server/EntityPositionTypes
+tb net/minecraft/server/EnumMonsterType
+	a UNDEFINED
+	b UNDEAD
+	c ARTHROPOD
+	d ILLAGER
+alu$a net/minecraft/server/Block$EnumRandomOffset
+	a NONE
+	b XZ
+	c XYZ
+tc net/minecraft/server/EnumMoveType
+	a SELF
+	b PLAYER
+	c PISTON
+	d SHULKER_BOX
+	e SHULKER
+td net/minecraft/server/EntityOwnable
+	b ()Ljava/util/UUID; getOwnerUUID
+	p_ ()Lsn; getOwner
+te net/minecraft/server/EntityCreature
+tg net/minecraft/server/IJumpable
+ti net/minecraft/server/EntityTameableAnimal
+	by goalSit
+	b (Ljava/util/UUID;)V setOwnerUUID
+	dh ()Z isTamed
+	dj ()Z isSitting
+	dk ()Lsw; getOwner
+	dl ()Lvl; getGoalSit
+	q (Z)V setTamed
+	r (Z)V setSitting
+tj net/minecraft/server/IAttribute
+	a ()Ljava/lang/String; getName
+	b ()D getDefault
+tk net/minecraft/server/AttributeInstance
+	a ()Ltj; getAttribute
+	a (D)V setValue
+	e ()D getValue
+tl net/minecraft/server/AttributeModifier
+tm net/minecraft/server/AttributeBase
+tn net/minecraft/server/AttributeMapBase
+to net/minecraft/server/AttributeModifiable
+tp net/minecraft/server/AttributeMapServer
+	b ()Ljava/util/Set; getAttributes
+tq net/minecraft/server/AttributeRanged
+ts net/minecraft/server/EntityAIBodyControl
+tu net/minecraft/server/ControllerJump
+aah$a net/minecraft/server/EntitySlime$PathfinderGoalSlimeNearestPlayer
+tv net/minecraft/server/ControllerLook
+aah$b net/minecraft/server/EntitySlime$PathfinderGoalSlimeRandomJump
+tw net/minecraft/server/ControllerMove
+aah$c net/minecraft/server/EntitySlime$PathfinderGoalSlimeIdle
+ty net/minecraft/server/PathfinderGoalAvoidTarget
+tz net/minecraft/server/PathfinderGoalBeg
+ua net/minecraft/server/PathfinderGoalBreakDoor
+aah$d net/minecraft/server/EntitySlime$ControllerMoveSlime
+ub net/minecraft/server/PathfinderGoalBreed
+	d animal
+	f partner
+aah$e net/minecraft/server/EntitySlime$PathfinderGoalSlimeRandomDirection
+uc net/minecraft/server/PathfinderGoalDoorInteract
+ud net/minecraft/server/PathfinderGoalEatTile
+ue net/minecraft/server/PathfinderGoalFleeSun
+uf net/minecraft/server/PathfinderGoalFloat
+ug net/minecraft/server/PathfinderGoalFollowOwner
+uh net/minecraft/server/PathfinderGoalFollowParent
+ui net/minecraft/server/PathfinderGoal
+uj net/minecraft/server/PathfinderGoalSelector
+uk net/minecraft/server/PathfinderGoalVillagerFarm
+ul net/minecraft/server/PathfinderGoalInteract
+fa$a net/minecraft/server/ChatClickable$EnumClickAction
+	a OPEN_URL
+	b OPEN_FILE
+	c RUN_COMMAND
+	d SUGGEST_COMMAND
+	e CHANGE_PAGE
+um net/minecraft/server/PathfinderGoalLeapAtTarget
+un net/minecraft/server/PathfinderGoalLlamaFollow
+uo net/minecraft/server/PathfinderGoalLookAtPlayer
+up net/minecraft/server/PathfinderGoalLookAtTradingPlayer
+uq net/minecraft/server/PathfinderGoalMakeLove
+ur net/minecraft/server/PathfinderGoalMeleeAttack
+us net/minecraft/server/PathfinderGoalMoveIndoors
+ut net/minecraft/server/PathfinderGoalMoveThroughVillage
+uu net/minecraft/server/PathfinderGoalGotoTarget
+uv net/minecraft/server/PathfinderGoalMoveTowardsRestriction
+uw net/minecraft/server/PathfinderGoalMoveTowardsTarget
+ux net/minecraft/server/PathfinderGoalOcelotAttack
+uy net/minecraft/server/PathfinderGoalJumpOnBlock
+uz net/minecraft/server/PathfinderGoalOfferFlower
+va net/minecraft/server/PathfinderGoalOpenDoor
+vb net/minecraft/server/PathfinderGoalPanic
+vc net/minecraft/server/PathfinderGoalPlay
+ve net/minecraft/server/PathfinderGoalRandomLookaround
+vf net/minecraft/server/PathfinderGoalRandomStroll
+	b (I)V setTimeBetweenMovement
+vg net/minecraft/server/PathfinderGoalArrowAttack
+vh net/minecraft/server/PathfinderGoalBowShoot
+vi net/minecraft/server/PathfinderGoalRestrictOpenDoor
+vj net/minecraft/server/PathfinderGoalRestrictSun
+vk net/minecraft/server/PathfinderGoalTame
+	a entity
+vl net/minecraft/server/PathfinderGoalSit
+	a entity
+	b willSit
+	a (Z)V setSitting
+tw$a net/minecraft/server/ControllerMove$Operation
+	a WAIT
+	b MOVE_TO
+	c STRAFE
+	d JUMPING
+vm net/minecraft/server/PathfinderGoalSwell
+vn net/minecraft/server/PathfinderGoalTakeFlower
+vo net/minecraft/server/PathfinderGoalTempt
+vp net/minecraft/server/PathfinderGoalTradeWithPlayer
+vq net/minecraft/server/PathfinderGoalInteractVillagers
+vr net/minecraft/server/PathfinderGoalRandomStrollLand
+vs net/minecraft/server/PathfinderGoalZombieAttack
+vu net/minecraft/server/PathfinderGoalDefendVillage
+vv net/minecraft/server/PathfinderGoalHurtByTarget
+vw net/minecraft/server/PathfinderGoalNearestAttackableTargetInsentient
+vx net/minecraft/server/PathfinderGoalTargetNearestPlayer
+vy net/minecraft/server/PathfinderGoalNearestAttackableTarget
+vz net/minecraft/server/PathfinderGoalRandomTargetNonTamed
+wa net/minecraft/server/PathfinderGoalOwnerHurtByTarget
+wb net/minecraft/server/PathfinderGoalOwnerHurtTarget
+wc net/minecraft/server/PathfinderGoalTarget
+we net/minecraft/server/Navigation
+wf net/minecraft/server/NavigationAbstract
+wg net/minecraft/server/NavigationListener
+wh net/minecraft/server/NavigationSpider
+wi net/minecraft/server/NavigationGuardian
+wk net/minecraft/server/EntitySenses
+wm net/minecraft/server/RandomPositionGenerator
+wo net/minecraft/server/VillageDoor
+wp net/minecraft/server/Village
+wq net/minecraft/server/VillageSiege
+wr net/minecraft/server/PersistentVillage
+	b world
+	e villages
+	f time
+	a ()V tick
+	a (Lco;I)Lwp; getClosestVillage
+	b ()Ljava/util/List; getVillages
+wt net/minecraft/server/EntityAmbient
+wu net/minecraft/server/EntityBat
+	a (Z)V setAsleep
+	o ()Z isAsleep
+ww net/minecraft/server/EntityAnimal
+	K ()Z isTypeNotPersistent
+	a (Lry;F)Z damageEntity
+	a (Lww;)Z mate
+	b (Laay;)I getExpValue
+	dm ()Laay; getBreedCause
+	dn ()Z isInLove
+	do ()V resetLove
+ayj$a net/minecraft/server/WorldGenLargeFeature$WorldGenLargeFeatureStart
+wx net/minecraft/server/EntityChicken
+	dh ()Z isChickenJockey
+wy net/minecraft/server/EntityCow
+	a (Lsk;)Lsk; createChild
+wz net/minecraft/server/EntityGolem
+xa net/minecraft/server/EntityMushroomCow
+xb net/minecraft/server/EntityOcelot
+	dp ()I getCatType
+	g (I)V setCatType
+xc net/minecraft/server/EntityPig
+	dh ()Z hasSaddle
+	p (Z)V setSaddle
+xd net/minecraft/server/EntityPolarBear
+xe net/minecraft/server/EntityRabbit
+	dj ()I getRabbitType
+	g (I)V setRabbitType
+xf net/minecraft/server/EntitySheep
+	bx container
+	b (Laem;)V setColor
+	dh ()Laem; getColor
+	di ()Z isSheared
+	p (Z)V setSheared
+xg net/minecraft/server/EntitySnowman
+	a (Z)V setHasPumpkin
+	o ()Z hasPumpkin
+xh net/minecraft/server/EntitySquid
+abx$b net/minecraft/server/EntityBoat$EnumBoatType
+	a OAK
+	b SPRUCE
+	c BIRCH
+	d JUNGLE
+	e ACACIA
+	f DARK_OAK
+xi net/minecraft/server/EntityIronGolem
+	dj ()Z isPlayerCreated
+	p (Z)V setPlayerCreated
+abx$a net/minecraft/server/EntityBoat$EnumStatus
+	a IN_WATER
+	b UNDER_WATER
+	c UNDER_FLOWING_WATER
+	d ON_LAND
+	e IN_AIR
+xj net/minecraft/server/EntityWaterAnimal
+xk net/minecraft/server/EntityWolf
+	bA DATA_HEALTH
+	a (Laem;)V setCollarColor
+	dr ()Z isAngry
+	ds ()Laem; getCollarColor
+	s (Z)V setAngry
+xl net/minecraft/server/EntityHorseChestedAbstract
+	dh ()Z isCarryingChest
+	p (Z)V setCarryingChest
+xm net/minecraft/server/EntityHorseAbstract
+	bB inventoryChest
+	bD jumpPower
+	bM canSlide
+	bw attributeJumpStrength
+	b (Ljava/util/UUID;)V setOwnerUUID
+	dC ()I getMaxDomestication
+	dp ()Z isTamed
+	dq ()Ljava/util/UUID; getOwnerUUID
+	dv ()Z hasReproduced
+	dw ()I getTemper
+	dz ()D getJumpStrength
+	m (I)V setTemper
+	q (Z)V setTamed
+	v (Z)V setStanding
+xn net/minecraft/server/EntityHorseDonkey
+xo net/minecraft/server/EntityHorse
+	dh ()I getVariant
+	o (I)V setVariant
+vy$a net/minecraft/server/PathfinderGoalNearestAttackableTarget$DistanceComparator
+xp net/minecraft/server/EnumHorseArmor
+	a NONE
+	b IRON
+	c GOLD
+	d DIAMOND
+xq net/minecraft/server/EntityLlama
+	dM ()I getVariant
+	o (I)V setVariant
+xr net/minecraft/server/EntityHorseMule
+xs net/minecraft/server/EntityHorseSkeleton
+xt net/minecraft/server/PathfinderGoalHorseTrap
+xu net/minecraft/server/EntityHorseZombie
+xy net/minecraft/server/IComplex
+xz net/minecraft/server/EntityComplexPart
+	a owner
+ya net/minecraft/server/EntityEnderCrystal
+	a (Lco;)V setBeamTarget
+	a (Z)V setShowingBottom
+	j ()Lco; getBeamTarget
+	k ()Z isShowingBottom
+yb net/minecraft/server/EntityEnderDragon
+	a PHASE
+	bH currentEnderCrystal
+	bu children
+	da ()Lys; getDragonControllerManager
+	e (Lry;F)Z dealDamage
+je$a net/minecraft/server/PacketPlayInEntityAction$EnumPlayerAction
+	a START_SNEAKING
+	b STOP_SNEAKING
+	c STOP_SLEEPING
+	d START_SPRINTING
+	e STOP_SPRINTING
+	f START_RIDING_JUMP
+	g STOP_RIDING_JUMP
+	h OPEN_INVENTORY
+	i START_FALL_FLYING
+yd net/minecraft/server/AbstractDragonController
+ye net/minecraft/server/AbstractDragonControllerLanded
+asu$a net/minecraft/server/TileEntityShulkerBox$AnimationPhase
+	a CLOSED
+	b OPENING
+	c OPENED
+	d CLOSING
+yf net/minecraft/server/DragonControllerCharge
+yg net/minecraft/server/DragonControllerDying
+yh net/minecraft/server/DragonControllerHold
+yi net/minecraft/server/DragonControllerHover
+yj net/minecraft/server/DragonControllerLandingFly
+yk net/minecraft/server/DragonControllerLanding
+yl net/minecraft/server/IDragonController
+	i ()Lyr; getControllerPhase
+ym net/minecraft/server/DragonControllerLandedAttack
+yn net/minecraft/server/DragonControllerLandedFlame
+yo net/minecraft/server/DragonControllerLandedSearch
+yp net/minecraft/server/DragonControllerStrafe
+yq net/minecraft/server/DragonControllerFly
+yr net/minecraft/server/DragonControllerPhase
+	a (I)Lyr; getById
+ys net/minecraft/server/DragonControllerManager
+	b enderDragon
+	c dragonControllers
+	d currentDragonController
+	a (Lyr;)V setControllerPhase
+yv net/minecraft/server/EntityWither
+yx net/minecraft/server/EntityArmorStand
+	bC headPose
+	bD bodyPose
+	bE leftArmPose
+	bF rightArmPose
+	bG leftLegPose
+	bH rightLegPose
+	a (Ldi;)V setHeadPose
+	b (Ldi;)V setBodyPose
+	c (Ldi;)V setLeftArmPose
+	d (Ldi;)V setRightArmPose
+	e (Ldi;)V setLeftLegPose
+	f (Ldi;)V setRightLegPose
+	m (Z)V setSmall
+	n (Z)V setArms
+	o ()Z isSmall
+	o (Z)V setBasePlate
+	p (Z)V setMarker
+	r ()Z hasArms
+	s ()Z hasBasePlate
+	t ()Z isMarker
+yy net/minecraft/server/EntityHanging
+	a blockPosition
+	b direction
+	a (Lcv;)V setDirection
+	a (Lry;F)Z damageEntity
+	j ()V updateBoundingBox
+	k ()Z survives
+	l ()I getWidth
+	n ()I getHeight
+	q ()Lco; getBlockPosition
+yz net/minecraft/server/EntityItemFrame
+	a (I)V setRotation
+	a (IZ)V setRotation
+	a (Lafj;)V setItem
+	a (Lafj;Z)V setItem
+	r ()Lafj; getItem
+	s ()I getRotation
+za net/minecraft/server/EntityLeash
+zb net/minecraft/server/EntityPainting
+	c art
+zd net/minecraft/server/EntityFishingHook
+	a hooked
+	c isInGround
+	e owner
+bj$a net/minecraft/server/CommandSpreadPlayers$Location2D
+zf net/minecraft/server/EntityWeather
+zg net/minecraft/server/EntityLightning
+	b lifeTicks
+zi net/minecraft/server/EntityFallingBlock
+	a ticksLived
+	at fallHurtAmount
+	b dropItem
+	c tileEntityData
+	e block
+	g hurtEntities
+	h fallHurtMax
+	l ()Latl; getBlock
+zj net/minecraft/server/EntityItem
+	d age
+	e pickupDelay
+	a (Lafj;)V setItemStack
+	k ()Lafj; getItemStack
+zk net/minecraft/server/EntityTNTPrimed
+	a FUSE_TICKS
+	b source
+	a (I)V setFuseTicks
+	j ()Lsw; getSource
+	l ()I getFuseTicks
+	n ()V explode
+zm net/minecraft/server/EntitySkeletonAbstract
+zn net/minecraft/server/EntityBlaze
+zo net/minecraft/server/EntityCaveSpider
+zp net/minecraft/server/EntityCreeper
+	bx fuseTicks
+	by maxFuseTicks
+	bz explosionRadius
+	dj ()Z isIgnited
+	dl ()Z canCauseHeadDrop
+	dm ()V setCausedHeadDrop
+	do ()V do_
+	o ()Z isPowered
+zq net/minecraft/server/EntityGuardianElder
+zr net/minecraft/server/EntityEnderman
+	a (Latl;)V setCarried
+	dj ()Latl; getCarried
+zs net/minecraft/server/EntityEndermite
+zt net/minecraft/server/IMonster
+zu net/minecraft/server/EntityEvoker
+zv net/minecraft/server/EntityGhast
+	da ()I getPower
+zw net/minecraft/server/EntityGiantZombie
+zx net/minecraft/server/EntityGuardian
+	by goalRandomStroll
+zy net/minecraft/server/EntityZombieHusk
+zz net/minecraft/server/EntityMagmaCube
+aay$a net/minecraft/server/EntityHuman$EnumBedResult
+	a OK
+	b NOT_POSSIBLE_HERE
+	c NOT_POSSIBLE_NOW
+	d TOO_FAR_AWAY
+	e OTHER_PROBLEM
+	f NOT_SAFE
+aay$b net/minecraft/server/EntityHuman$EnumChatVisibility
+	a FULL
+	b SYSTEM
+	c HIDDEN
+ni$a net/minecraft/server/RemoteStatusListener$RemoteStatusChallenge
+	b time
+	c token
+	d identity
+	e response
+all$a net/minecraft/server/BlockAnvil$TileEntityContainerAnvil
+ib$a net/minecraft/server/PacketPlayOutScoreboardScore$EnumScoreboardAction
+	a CHANGE
+	b REMOVE
+ek$d net/minecraft/server/MojangsonParser$MojangsonPrimitiveParser
+ek$c net/minecraft/server/MojangsonParser$MojangsonListParser
+ek$b net/minecraft/server/MojangsonParser$MojangsonCompoundParser
+ek$a net/minecraft/server/MojangsonParser$MojangsonTypeParser
+acn$a net/minecraft/server/ContainerBeacon$SlotBeacon
+bcl$b net/minecraft/server/LootTableInfo$EntityTarget
+	a THIS
+	b KILLER
+	c KILLER_PLAYER
+aqb$a net/minecraft/server/BlockRedstoneWire$EnumRedstoneWireConnection
+	a UP
+	b SIDE
+	c NONE
+ahu$a net/minecraft/server/RecipeShulkerBox$Dye
+sp$a net/minecraft/server/EntityTypes$MonsterEggInfo
+	d killEntityStatistic
+	e killedByEntityStatistic
